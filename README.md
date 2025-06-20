@@ -1,5 +1,7 @@
 # JP_PLS
-Static fields and values for my Japanese Practice and Learning system to allow for public contribution to accuracy, quality and more regarding its content.
+Static fields and values for my Japanese Practice and Learning system to allow for public contribution to accuracy, coverage range, quality and more regarding its content.
+
+The goal is to allow transparency in its content in order to prevent closed source translation inaccuracies and allow people to contribute if they appreciate the system and want to help.
 
 ### How to contribute?
 
