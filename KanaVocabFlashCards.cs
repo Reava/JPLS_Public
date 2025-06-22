@@ -18,12 +18,12 @@
             new string[] { "する", "すし", "すみません", "すぐ", "すき", "すごい" },
             new string[] { "しません", "せんせい", "せんたく", "せまい", "せっかく", "あせる" },
             new string[] { "それ", "そこ", "そうです", "そば", "そうじ", "そろそろ" },
-            // た行 (Ta-row)
-            new string[] { "た", "た", "た", "た", "た", "た" },
-            new string[] { "ち", "ち", "ち", "ち", "ち", "ち" },
-            new string[] { "つ", "つ", "つ", "つ", "つ", "つ" },
-            new string[] { "て", "て", "て", "て", "て", "て" },
-            new string[] { "と", "と", "と", "と", "と", "と" },
+            // た行 (Ta-row) - Contribution by Nerazawa
+            new string[] { "たべる", "たたみ", "たくさん", "ただ", "たまご", "たのしい" },
+            new string[] { "ちち", "ちがう", "ちか", "ちいさい", "ちかい", "こっち" },
+            new string[] { "つぎ", "つづく", "つけもの", "つよい", "つまらない", "つもり" },
+            new string[] { "て", "てがみ", "てんき", "てんぷら", "てつだう", "てぶくろ" },
+            new string[] { "とり", "ともだち", "とけい", "とても", "とうふ", "これとそれ" },
             // な行 (Na-row)
             new string[] { "な", "な", "な", "な", "な", "な" },
             new string[] { "に", "に", "に", "に", "に", "に" },
@@ -328,12 +328,12 @@
             new string[] { "tsugi", "tsuzuku", "tsukemono", "tsuyoi", "tsumaranai", "tsumori" },
             new string[] { "te", "tegami", "tenki", "tenpura", "tetsudau", "tebukuro" },
             new string[] { "tori", "tomodachi", "tokei", "totemo", "tōfu", "koretosore" },
-            // た行 (Ta-row) - Contribution by Nerazawa
-            new string[] { "たべる", "たたみ", "たくさん", "ただ", "たまご", "たのしい" },
-            new string[] { "ちち", "ちがう", "ちか", "ちいさい", "ちかい", "こっち" },
-            new string[] { "つぎ", "つづく", "つけもの", "つよい", "つまらない", "つもり" },
-            new string[] { "て", "てがみ", "てんき", "てんぷら", "てつだう", "てぶくろ" },
-            new string[] { "とり", "ともだち", "とけい", "とても", "とうふ", "これとそれ" },
+            // な行 (Na-row)
+            new string[] { "na", "na", "na", "na", "na", "na" },
+            new string[] { "ni", "ni", "ni", "ni", "ni", "ni" },
+            new string[] { "nu", "nu", "nu", "nu", "nu", "nu" },
+            new string[] { "ne", "ne", "ne", "ne", "ne", "ne" },
+            new string[] { "no", "no", "no", "no", "no", "no" },
             // は行 (Ha-row)
             new string[] { "ha", "ha", "ha", "ha", "ha", "ha" },
             new string[] { "hi", "hi", "hi", "hi", "hi", "hi" },
