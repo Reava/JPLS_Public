@@ -6,12 +6,12 @@
             new string[] { "uchi", "ushiro", "ue", "udon", "urusai", "ureshii" },
             new string[] { "ee", "eki", "ebi", "eigo", "enpitsu", "en" },
             new string[] { "ohayō", "otona", "oishii", "owari", "omoshiroi", "omocha" },
-            // か行 (Ka-row)
-            new string[] { "か", "か", "か", "か", "か", "か" },
-            new string[] { "き", "き", "き", "き", "き", "き" },
-            new string[] { "く", "く", "く", "く", "く", "く" },
-            new string[] { "け", "け", "け", "け", "け", "け" },
-            new string[] { "こ", "こ", "こ", "こ", "こ", "こ" },
+            // か行 (Ka-row) - Contribution by Object777
+            new string[] { "かさ", "かばん", "かお", "かわいい", "かける", "しかし" },
+            new string[] { "きのう", "きれい", "きもの", "きみ", "きっぷ", "きらい" },
+            new string[] { "ください", "くるま", "くつ", "くすり", "いくら", "くりかえす" },
+            new string[] { "ける", "けが", "けんか", "けれど", "けっこん", "けじめ" },
+            new string[] { "ことば", "こちら", "こども", "こめ", "こたつ", "こしょう" },
             // さ行 (Sa-row)
             new string[] { "さ", "さ", "さ", "さ", "さ", "さ" },
             new string[] { "し", "し", "し", "し", "し", "し" },
@@ -310,12 +310,12 @@
             new string[] { "house, home", "behind; back", "above; on; over", "noodle", "noisy, annoying", "be glad; be happy; be delighted" },
             new string[] { "[affirmation] yes", "station", "shrimp", "English", "pencil", "yen" },
             new string [] { "Good morning", "adult", "delicious", "end", "interesting; fun", "toy"},
-            // か行 (Ka-row)
-            new string[] { "ka", "ka", "ka", "ka", "ka", "ka" },
-            new string[] { "ki", "ki", "ki", "ki", "ki", "ki" },
-            new string[] { "ku", "ku", "ku", "ku", "ku", "ku" },
-            new string[] { "ke", "ke", "ke", "ke", "ke", "ke" },
-            new string[] { "ko", "ko", "ko", "ko", "ko", "ko" },
+            // か行 (Ka-row) - Contribution by Object777
+            new string[] { "kasa", "kaban", "kao", "kawaii", "kakeru", "shikashi" },
+            new string[] { "kinō", "kirei", "kimono", "kimi", "kippu", "kirai" },
+            new string[] { "kudasai", "kuruma", "kutsu", "kusuri", "ikura", "kurikaesu" },
+            new string[] { "keru", "kega", "kenka", "keredo", "kekkon", "kejime" },
+            new string[] { "kotoba", "kochira", "kodomo", "kome", "kotatsu", "koshō" },
             // さ行 (Sa-row)
             new string[] { "sa", "sa", "sa", "sa", "sa", "sa" },
             new string[] { "shi", "shi", "shi", "shi", "shi", "shi" },
@@ -614,12 +614,12 @@
             new string[] { "house, home", "behind; back", "above; on; over", "noodle", "noisy, annoying", "be glad; be happy; be delighted" },
             new string[] { "[affirmation] yes", "station", "shrimp", "English", "pencil", "yen" },
             new string [] { "Good morning", "adult", "delicious", "end", "interesting; fun", "toy"},
-            // か行 (Ka-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            // か行 (Ka-row) - Contribution by Object777
+            new string[] { "umbrella", "bag", "face", "cute", "suspend; make (a phone call)", "however, but" },
+            new string[] { "yesterday", "clean; beautiful", "kimono", "you [familiar]", "ticket", "dislike; hate" },
+            new string[] { "Give me", "car", "shoe", "medicine", "How much", "repeat" },
+            new string[] { "kick", "injury", "fight; argument", "but [particle]", "marriage", "distinction; demarcation" },
+            new string[] { "language", "this way; this side; here", "child", "(uncooked) rice", "a covered table with a heat source underneath", "pepper" },
             // さ行 (Sa-row)
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
