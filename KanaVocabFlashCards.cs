@@ -1,7 +1,7 @@
         public string[][] KanaWords = new string[][] {
             // Hiragana
             // あ行 (A-row)
-            new string[] { "あ", "あ", "あ", "あ", "あ", "あ" },
+            new string[] { "あれ", "あそこ", "あした", "あります", "あいさつ", "ありがとう" },
             new string[] { "い", "い", "い", "い", "い", "い" },
             new string[] { "う", "う", "う", "う", "う", "う" },
             new string[] { "え", "え", "え", "え", "え", "え" },
@@ -305,7 +305,7 @@
         public string[][] KanaWordsRomaji = new string[][] {
             // Hiragana
             // あ行 (A-row)
-            new string[] { "a", "a", "a", "a", "a", "a" },
+            new string[] { "are", "asoko", "ashita", "arimasu", "aisatsu", "arigatō" },
             new string[] { "i", "i", "i", "i", "i", "i" },
             new string[] { "u", "u", "u", "u", "u", "u" },
             new string[] { "e", "e", "e", "e", "e", "e" },
@@ -609,7 +609,7 @@
         public string[][] KanaWordsMeaning = new string[][] {
             // Hiragana
             // あ行 (A-row)
-            new string[] { "", "", "", "", "", "" },
+            new string[] { "that thing over there", "over there", "tomorrow", "exist; have", "greeting", "thank you" },
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
