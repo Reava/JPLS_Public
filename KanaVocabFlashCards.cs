@@ -52,10 +52,10 @@
             new string[] { "るす", "るすばん", "るすちゅう", "まる", "るいじてん", "どうるい" },
             new string[] { "これ", "れい", "れんしゅう", "れきし", "れんらく", "れんこん" },
             new string[] { "ろく", "ろうか", "ろうじん", "くろ", "しろ", "むしろ" },
-            // わ行 (Wa-row)
-            new string[] { "わ", "わ", "わ", "わ", "わ", "わ" },
-            new string[] { "を", "を", "を", "を", "を", "を" },
-            new string[] { "ん", "ん", "ん", "ん", "ん", "ん" },
+            // わ行 (Wa-row) - Contribution by JustJaime
+            new string[] { "わたし", "わかる", "われる", "わけ", "わさび", "わがまま" },
+            new string[] { "これをください。", "すしをたべた。", "そうじをした。", "めがねをかけた。", "あいさつをした。", "ここをかたづけよう。" },
+            new string[] { "みんな", "うん", "こんにちは。", "おんな", "ぜんぜん", "まんが" },
             // 濁音 (Dakuon - Voiced sounds)
             // が行 (Ga-row)
             new string[] { "が", "が", "が", "が", "が", "が" },
@@ -356,10 +356,10 @@
             new string[] { "rusu", "rusuban", "rusuchū", "maru", "ruijiten", "dōrui" },
             new string[] { "kore", "rei", "renshū", "rekishi", "renraku", "renkon" },
             new string[] { "roku", "rōka", "rōjin", "kuro", "shiro", "mushiro" },
-            // わ行 (Wa-row)
-            new string[] { "wa", "wa", "wa", "wa", "wa", "wa" },
-            new string[] { "wo", "wo", "wo", "wo", "wo", "wo" },
-            new string[] { "n", "n", "n", "n", "n", "n" },
+            // わ行 (Wa-row) - Contribution by JustJaime
+            new string[] { "watashi", "wakaru", "wareru", "wake", "wasabi", "wagamama" },
+            new string[] { "Kore o kudasai.", "Sushi o tabeta.", "Sōji o shita", "Megane o kaketa.", "Aisatsu o shita.", "Koko o katazukeyō." },
+            new string[] { "minna", "un", "Konnichiwa.", "onna", "zenzen", "manga" },
             // 濁音 (Dakuon - Voiced sounds)
             // が行 (Ga-row)
             new string[] { "ga", "ga", "ga", "ga", "ga", "ga" },
@@ -660,10 +660,10 @@
             new string[] { "absence from home", "caretaker; house sitter", "during absence from home", "circle", "points of similarity", "some kind" },
             new string[] { "this", "expression of; gratitude", "practice", "history", "getting in touch; connection", "lotus root" },
             new string[] { "six", "corridor", "old person", "black", "white", "rather; instead" },
-            // わ行 (Wa-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            // わ行 (Wa-row) - Contribution by JustJaime
+            new string[] { "I; me", "understand", "break", "reason", "Japanese horseradish", "selfishness; self-indulgence" },
+            new string[] { "Please give this to me.", "(I) ate sushi.", "(I) cleaned.", "(I) put on glasses.", "(I) greeted.", "Let's clean here." },
+            new string[] { "everyone; all", "[affirmation/informal] yes", "Good day.", "female", "(not) at all", "manga comics" },
             // 濁音 (Dakuon - Voiced sounds)
             // が行 (Ga-row)
             new string[] { "", "", "", "", "", "" },
