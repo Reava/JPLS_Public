@@ -46,12 +46,12 @@
             new string[] { "や", "や", "や", "や", "や", "や" },
             new string[] { "ゆ", "ゆ", "ゆ", "ゆ", "ゆ", "ゆ" },
             new string[] { "よ", "よ", "よ", "よ", "よ", "よ" },
-            // ら行 (Ra-row)
-            new string[] { "ら", "ら", "ら", "ら", "ら", "ら" },
-            new string[] { "り", "り", "り", "り", "り", "り" },
-            new string[] { "る", "る", "る", "る", "る", "る" },
-            new string[] { "れ", "れ", "れ", "れ", "れ", "れ" },
-            new string[] { "ろ", "ろ", "ろ", "ろ", "ろ", "ろ" },
+            // ら行 (Ra-row) - Contribution by JustJaime
+            new string[] { "あちら", "さくら", "いらっしゃいませ", "らしい", "らく", "らいねん" },
+            new string[] { "りんご", "りっぱ", "いります", "りかい", "りこん", "りゆう" },
+            new string[] { "るす", "るすばん", "るすちゅう", "まる", "るいじてん", "どうるい" },
+            new string[] { "これ", "れい", "れんしゅう", "れきし", "れんらく", "れんこん" },
+            new string[] { "ろく", "ろうか", "ろうじん", "くろ", "しろ", "むしろ" },
             // わ行 (Wa-row)
             new string[] { "わ", "わ", "わ", "わ", "わ", "わ" },
             new string[] { "を", "を", "を", "を", "を", "を" },
@@ -350,12 +350,12 @@
             new string[] { "ya", "ya", "ya", "ya", "ya", "ya" },
             new string[] { "yu", "yu", "yu", "yu", "yu", "yu" },
             new string[] { "yo", "yo", "yo", "yo", "yo", "yo" },
-            // ら行 (Ra-row)
-            new string[] { "ra", "ra", "ra", "ra", "ra", "ra" },
-            new string[] { "ri", "ri", "ri", "ri", "ri", "ri" },
-            new string[] { "ru", "ru", "ru", "ru", "ru", "ru" },
-            new string[] { "re", "re", "re", "re", "re", "re" },
-            new string[] { "ro", "ro", "ro", "ro", "ro", "ro" },
+            // ら行 (Ra-row) - Contribution by JustJaime
+            new string[] { "achira", "sakura", "irasshaimase", "rashii", "raku", "rainen" },
+            new string[] { "ringo", "rippa", "irimasu", "rikai", "rikon", "riyū" },
+            new string[] { "rusu", "rusuban", "rusuchū", "maru", "ruijiten", "dōrui" },
+            new string[] { "kore", "rei", "renshū", "rekishi", "renraku", "renkon" },
+            new string[] { "roku", "rōka", "rōjin", "kuro", "shiro", "mushiro" },
             // わ行 (Wa-row)
             new string[] { "wa", "wa", "wa", "wa", "wa", "wa" },
             new string[] { "wo", "wo", "wo", "wo", "wo", "wo" },
@@ -654,12 +654,12 @@
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
-            // ら行 (Ra-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            // ら行 (Ra-row) - Contribution by JustJaime
+            new string[] { "that way; over there", "cherry blossom", "Welcome!", "apparently", "comfortable; easy; relaxing", "next year" },
+            new string[] { "apple", "spendid; eminent", "need", "understanding", "divorce", "reason" },
+            new string[] { "absence from home", "caretaker; house sitter", "during absence from home", "circle", "points of similarity", "some kind" },
+            new string[] { "this", "expression of; gratitude", "practice", "history", "getting in touch; connection", "lotus root" },
+            new string[] { "six", "corridor", "old person", "black", "white", "rather; instead" },
             // わ行 (Wa-row)
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
