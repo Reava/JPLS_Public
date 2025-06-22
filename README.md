@@ -10,7 +10,7 @@ If you want to contribute by correcting an inaccuracy, adding to the existing da
 - Create a fork, make your changes and make a pull request along an issue describing your changes, source and process for it.
 - Reach out for any non direct github changes and requests.
 
-  ## 📋 **Contributions available**
+### 📋 **Contributions available**
 <details>
 <Summary>Expand me!</summary>
 
