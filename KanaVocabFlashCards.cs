@@ -631,7 +631,7 @@
             new string[] { "father; my father", "be different; be wrong", "basement", "small", "close", "this side; here" },
             new string[] { "next", "continue; to be continued", "pickles", "strong; sturdy", "boring; trifling", "plan; intention" },
             new string[] { "hand", "letter", "weather", "tempura", "help; lend a hand", "glove" },
-            new string[] { "bird; chicken", "friend", "clock; watch", "very; extremely", "tofu", "this thing and that thing near you" },
+            new string[] { "bird; chicken", "friend", "clock; watch", "very; extremely", "tōfu", "this thing and that thing near you" },
             // な行 (Na-row)
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
