@@ -30,12 +30,12 @@
             new string[] { "ぬいぐるみ", "ぬるい", "ぬぐ", "ぬれる", "ぬる", "ぬすむ" },
             new string[] { "ねこ", "ねる", "ねむい", "ねだん", "ねぎ", "ねんきん" },
             new string[] { "のり", "のる", "のこり", "のせる", "のんびり", "[わたし]の[うち]" },
-            // は行 (Ha-row)
-            new string[] { "は", "は", "は", "は", "は", "は" },
-            new string[] { "ひ", "ひ", "ひ", "ひ", "ひ", "ひ" },
-            new string[] { "ふ", "ふ", "ふ", "ふ", "ふ", "ふ" },
-            new string[] { "へ", "へ", "へ", "へ", "へ", "へ" },
-            new string[] { "ほ", "ほ", "ほ", "ほ", "ほ", "ほ" },
+            // は行 (Ha-row) - Contribution by Nerazawa
+            new string[] { "はい", "はし", "はなし", "ではまた。", "じつは", "わたしはスミスです。" },
+            new string[] { "ひとつ", "ひと", "ひま", "ひだり", "ひどい", "ひっぱる" },
+            new string[] { "ふたつ", "ふとん", "ふろ", "ふる", "ふれる", "ふく" },
+            new string[] { "へや", "へた", "へる", "こちらへどうぞ", "どちらへ？", "みなさんへ" },
+            new string[] { "ほんとう", "ほしい", "ほとんど", "ほうき", "ほこり", "ほうれんそう" },
             // ま行 (Ma-row)
             new string[] { "ま", "ま", "ま", "ま", "ま", "ま" },
             new string[] { "み", "み", "み", "み", "み", "み" },
@@ -334,12 +334,12 @@
             new string[] { "nuigurumi", "nurui", "nugu", "nureru", "nuru", "nusumu" },
             new string[] { "neko", "neru", "nemui", "nedan", "negi", "nenkin" },
             new string[] { "nori", "noru", "nokori", "noseru", "nonbiri", "watashi no uchi" },
-            // は行 (Ha-row)
-            new string[] { "ha", "ha", "ha", "ha", "ha", "ha" },
-            new string[] { "hi", "hi", "hi", "hi", "hi", "hi" },
-            new string[] { "fu", "fu", "fu", "fu", "fu", "fu" },
-            new string[] { "he", "he", "he", "he", "he", "he" },
-            new string[] { "ho", "ho", "ho", "ho", "ho", "ho" },
+            // は行 (Ha-row) - Contribution by Nerazawa
+            new string[] { "hai", "hashi", "hanashi", "Dewa mata.", "jitsu wa", "Watashi wa Sumisu desu." },
+            new string[] { "hitotsu", "hito", "hima", "hidari", "hidoi", "hipparu" },
+            new string[] { "futatsu", "futon", "furo", "furu", "fureru", "fuku" },
+            new string[] { "heya", "heta", "heru", "Kochira e dōzo.", "Dochira e?", "minasan e" },
+            new string[] { "hontō", "hoshii", "hotondo", "hōki", "hokori", "hōrensō" },
             // ま行 (Ma-row)
             new string[] { "ma", "ma", "ma", "ma", "ma", "ma" },
             new string[] { "mi", "mi", "mi", "mi", "mi", "mi" },
@@ -638,12 +638,12 @@
             new string[] { "stuffed animal", "lukewarm; tepid", "take off (clothes, shoes, etc.)", "get wet", "paint; smear", "steal" },
             new string[] { "cat", "sleep", "sleepy", "price", "green onion; scallion", "pension; annuity" },
             new string[] { "dried seaweed; glue", "get on; ride", "left-over; remaining", "place on something; give a ride", "carefree; at leisure", "[particle connecting nouns] my house" },
-            // は行 (Ha-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            // は行 (Ha-row) - Contribution by Nerazawa
+            new string[] { "[affirmation] yes; sure", "chopsticks", "talk; story", "See you later.", "actually", "I am Smith." },
+            new string[] { "one unit", "person", "free time", "left", "awful; terrible", "pull; drag; lead" },
+            new string[] { "two units", "futon", "bath", "fall (rain)", "touch", "wipe" },
+            new string[] { "room", "unskillful; poor at", "decrease", "Please, this way.", "Where to?", "to everyone" },
+            new string[] { "truth", "want; in need of", "mostly", "broom", "dust", "spinach" },
             // ま行 (Ma-row)
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
