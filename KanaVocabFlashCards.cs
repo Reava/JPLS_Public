@@ -1,11 +1,11 @@
         private readonly string[][] KanaWords = new string[][] {
             // Hiragana
-            // あ行 (A-row)
-            new string[] { "あれ", "あそこ", "あした", "あります", "あいさつ", "ありがとう" },
-            new string[] { "い", "い", "い", "い", "い", "い" },
-            new string[] { "う", "う", "う", "う", "う", "う" },
-            new string[] { "え", "え", "え", "え", "え", "え" },
-            new string[] { "お", "お", "お", "お", "お", "お" },
+            // あ行 (A-row) - Contribution by Object777
+            new string[] { "are", "asoko", "ashita", "arimasu", "aisatsu", "arigatō" },
+            new string[] { "iie", "itsu", "inu", "iru", "ichigo", "itadakimasu" },
+            new string[] { "uchi", "ushiro", "ue", "udon", "urusai", "ureshii" },
+            new string[] { "ee", "eki", "ebi", "eigo", "enpitsu", "en" },
+            new string[] { "ohayō", "otona", "oishii", "owari", "omoshiroi", "omocha" },
             // か行 (Ka-row)
             new string[] { "か", "か", "か", "か", "か", "か" },
             new string[] { "き", "き", "き", "き", "き", "き" },
@@ -304,12 +304,12 @@
 
         private readonly string[][] KanaWordsRomaji = new string[][] {
             // Hiragana
-            // あ行 (A-row)
-            new string[] { "are", "asoko", "ashita", "arimasu", "aisatsu", "arigatō" },
-            new string[] { "i", "i", "i", "i", "i", "i" },
-            new string[] { "u", "u", "u", "u", "u", "u" },
-            new string[] { "e", "e", "e", "e", "e", "e" },
-            new string[] { "o", "o", "o", "o", "o", "o" },
+            // あ行 (A-row) - Contribution by Object777
+            new string[] { "that thing over there", "over there", "tomorrow", "exist; have", "greeting", "thank you" },
+            new string[] { "[negation] no", "when", "dog", "exist", "strawberry", "drink, eat, accept [polite]" },
+            new string[] { "house, home", "behind; back", "above; on; over", "noodle", "noisy, annoying", "be glad; be happy; be delighted" },
+            new string[] { "[affirmation] yes", "station", "shrimp", "English", "pencil", "yen" },
+            new string [] { "Good morning", "adult", "delicious", "end", "interesting; fun", "toy"},
             // か行 (Ka-row)
             new string[] { "ka", "ka", "ka", "ka", "ka", "ka" },
             new string[] { "ki", "ki", "ki", "ki", "ki", "ki" },
@@ -608,12 +608,12 @@
 
         private readonly string[][] KanaWordsMeaning = new string[][] {
             // Hiragana
-            // あ行 (A-row)
+            // あ行 (A-row) - Contribution by Object777
             new string[] { "that thing over there", "over there", "tomorrow", "exist; have", "greeting", "thank you" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            new string[] { "[negation] no", "when", "dog", "exist", "strawberry", "drink, eat, accept [polite]" },
+            new string[] { "house, home", "behind; back", "above; on; over", "noodle", "noisy, annoying", "be glad; be happy; be delighted" },
+            new string[] { "[affirmation] yes", "station", "shrimp", "English", "pencil", "yen" },
+            new string [] { "Good morning", "adult", "delicious", "end", "interesting; fun", "toy"},
             // か行 (Ka-row)
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
