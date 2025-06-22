@@ -24,12 +24,12 @@
             new string[] { "つぎ", "つづく", "つけもの", "つよい", "つまらない", "つもり" },
             new string[] { "て", "てがみ", "てんき", "てんぷら", "てつだう", "てぶくろ" },
             new string[] { "とり", "ともだち", "とけい", "とても", "とうふ", "これとそれ" },
-            // な行 (Na-row)
-            new string[] { "な", "な", "な", "な", "な", "な" },
-            new string[] { "に", "に", "に", "に", "に", "に" },
-            new string[] { "ぬ", "ぬ", "ぬ", "ぬ", "ぬ", "ぬ" },
-            new string[] { "ね", "ね", "ね", "ね", "ね", "ね" },
-            new string[] { "の", "の", "の", "の", "の", "の" },
+            // な行 (Na-row) - Contribution by Nerazawa
+            new string[] { "ない", "なぜ", "なる", "なし", "なつかしい", "なくす" },
+            new string[] { "にほん", "にわ", "にんじん", "にく", "にんげん", "ここにある" },
+            new string[] { "ぬいぐるみ", "ぬるい", "ぬぐ", "ぬれる", "ぬる", "ぬすむ" },
+            new string[] { "ねこ", "ねる", "ねむい", "ねだん", "ねぎ", "ねんきん" },
+            new string[] { "のり", "のる", "のこり", "のせる", "のんびり", "[わたし]の[うち]" },
             // は行 (Ha-row)
             new string[] { "は", "は", "は", "は", "は", "は" },
             new string[] { "ひ", "ひ", "ひ", "ひ", "ひ", "ひ" },
@@ -328,12 +328,12 @@
             new string[] { "tsugi", "tsuzuku", "tsukemono", "tsuyoi", "tsumaranai", "tsumori" },
             new string[] { "te", "tegami", "tenki", "tenpura", "tetsudau", "tebukuro" },
             new string[] { "tori", "tomodachi", "tokei", "totemo", "tōfu", "koretosore" },
-            // な行 (Na-row)
-            new string[] { "na", "na", "na", "na", "na", "na" },
-            new string[] { "ni", "ni", "ni", "ni", "ni", "ni" },
-            new string[] { "nu", "nu", "nu", "nu", "nu", "nu" },
-            new string[] { "ne", "ne", "ne", "ne", "ne", "ne" },
-            new string[] { "no", "no", "no", "no", "no", "no" },
+            // な行 (Na-row) - Contribution by Nerazawa
+            new string[] { "nai", "naze", "naru", "nashi", "natsukashii", "nakusu" },
+            new string[] { "nihon", "niwa", "ninjin", "niku", "ningen", "koko ni aru" },
+            new string[] { "nuigurumi", "nurui", "nugu", "nureru", "nuru", "nusumu" },
+            new string[] { "neko", "neru", "nemui", "nedan", "negi", "nenkin" },
+            new string[] { "nori", "noru", "nokori", "noseru", "nonbiri", "watashi no uchi" },
             // は行 (Ha-row)
             new string[] { "ha", "ha", "ha", "ha", "ha", "ha" },
             new string[] { "hi", "hi", "hi", "hi", "hi", "hi" },
@@ -632,12 +632,12 @@
             new string[] { "next", "continue; to be continued", "pickles", "strong; sturdy", "boring; trifling", "plan; intention" },
             new string[] { "hand", "letter", "weather", "tempura", "help; lend a hand", "glove" },
             new string[] { "bird; chicken", "friend", "clock; watch", "very; extremely", "tōfu", "this thing and that thing near you" },
-            // な行 (Na-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            // な行 (Na-row) - Contribution by Nerazawa
+            new string[] { "not there; not exist", "why", "become", "pear", "dear; missed; familiar", "lose something" },
+            new string[] { "Japan", "yard; garden", "carrot", "meat", "human being", "[particle indicating location] be here" },
+            new string[] { "stuffed animal", "lukewarm; tepid", "take off (clothes, shoes, etc.)", "get wet", "paint; smear", "steal" },
+            new string[] { "cat", "sleep", "sleepy", "price", "green onion; scallion", "pension; annuity" },
+            new string[] { "dried seaweed; glue", "get on; ride", "left-over; remaining", "place on something; give a ride", "carefree; at leisure", "[particle connecting nouns] my house" },
             // は行 (Ha-row)
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
