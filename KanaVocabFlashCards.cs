@@ -12,12 +12,12 @@
             new string[] { "ください", "くるま", "くつ", "くすり", "いくら", "くりかえす" },
             new string[] { "ける", "けが", "けんか", "けれど", "けっこん", "けじめ" },
             new string[] { "ことば", "こちら", "こども", "こめ", "こたつ", "こしょう" },
-            // さ行 (Sa-row)
-            new string[] { "さ", "さ", "さ", "さ", "さ", "さ" },
-            new string[] { "し", "し", "し", "し", "し", "し" },
-            new string[] { "す", "す", "す", "す", "す", "す" },
-            new string[] { "せ", "せ", "せ", "せ", "せ", "せ" },
-            new string[] { "そ", "そ", "そ", "そ", "そ", "そ" },
+            // さ行 (Sa-row) - Contribution by Object777
+            new string[] { "さぞなら", "スミスさん", "さしみ", "さとう", "さびしい", "さわざか" },
+            new string[] { "します", "しました", "しまう", "しお", "しっかり", "しくら" },
+            new string[] { "する", "すし", "すみません", "すぐ", "すき", "すごい" },
+            new string[] { "しません", "せんせい", "せんたく", "せまい", "せっかく", "あせる" },
+            new string[] { "それ", "そこ", "そうです", "そば", "そうじ", "そろそろ" },
             // た行 (Ta-row)
             new string[] { "た", "た", "た", "た", "た", "た" },
             new string[] { "ち", "ち", "ち", "ち", "ち", "ち" },
@@ -316,12 +316,12 @@
             new string[] { "kudasai", "kuruma", "kutsu", "kusuri", "ikura", "kurikaesu" },
             new string[] { "keru", "kega", "kenka", "keredo", "kekkon", "kejime" },
             new string[] { "kotoba", "kochira", "kodomo", "kome", "kotatsu", "koshō" },
-            // さ行 (Sa-row)
-            new string[] { "sa", "sa", "sa", "sa", "sa", "sa" },
-            new string[] { "shi", "shi", "shi", "shi", "shi", "shi" },
-            new string[] { "su", "su", "su", "su", "su", "su" },
-            new string[] { "se", "se", "se", "se", "se", "se" },
-            new string[] { "so", "so", "so", "so", "so", "so" },
+            // さ行 (Sa-row) - Contribution by Object777
+            new string[] { "sayonara", "sumisu san", "sashimi", "satō", "sabishii", "sawayaka" },
+            new string[] { "shimasu", "shimashita", "shimau", "shio", "shikkari", "shikaru" },
+            new string[] { "suru", "sushi", "sumimasen", "sugu", "suki", "sugoi" },
+            new string[] { "shimasen", "sensei", "sentaku", "semai", "sekkaku", "aseru" },
+            new string[] { "sore", "soko", "sōdesu", "soba", "sōji", "sorosoro" },
             // た行 (Ta-row)
             new string[] { "ta", "ta", "ta", "ta", "ta", "ta" },
             new string[] { "chi", "chi", "chi", "chi", "chi", "chi" },
@@ -620,12 +620,12 @@
             new string[] { "Give me", "car", "shoe", "medicine", "How much", "repeat" },
             new string[] { "kick", "injury", "fight; argument", "but [particle]", "marriage", "distinction; demarcation" },
             new string[] { "language", "this way; this side; here", "child", "(uncooked) rice", "a covered table with a heat source underneath", "pepper" },
-            // さ行 (Sa-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            // さ行 (Sa-row) - Contribution by Object777
+            new string[] { "Goodbye", "Mr./Ms. Smith", "sashimi; raw fish", "sugar", "lonely; sad", "refreshing" },
+            new string[] { "do", "did", "put away, finish", "salt", "tightly, reliable, firmly", "scold" },
+            new string[] { "do", "sushi", "I'm sorry; Thank you", "right away, soon, immediately", "like", "terrific, amazing, terrible" },
+            new string[] { "not do", "teacher; doctor", "laundry", "narrow; confined", "with special trouble or effort", "be in a hurry; be impatient" },
+            new string[] { "that thing", "that place", "It's as you said", "buckwheat noodle; near, vicinity", "clean something", "slowly; soon; any time now" },
             // た行 (Ta-row)
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
