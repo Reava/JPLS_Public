@@ -1,4 +1,4 @@
-        public string[][] KanaWords = new string[][] {
+        private readonly string[][] KanaWords = new string[][] {
             // Hiragana
             // あ行 (A-row)
             new string[] { "あれ", "あそこ", "あした", "あります", "あいさつ", "ありがとう" },
@@ -302,7 +302,7 @@
             new string[] { "ヴォ", "ヴォ", "ヴォ", "ヴォ", "ヴォ", "ヴォ" }
         };
 
-        public string[][] KanaWordsRomaji = new string[][] {
+        private readonly string[][] KanaWordsRomaji = new string[][] {
             // Hiragana
             // あ行 (A-row)
             new string[] { "are", "asoko", "ashita", "arimasu", "aisatsu", "arigatō" },
@@ -606,7 +606,7 @@
             new string[] { "vo", "vo", "vo", "vo", "vo", "vo" }
         };
 
-        public string[][] KanaWordsMeaning = new string[][] {
+        private readonly string[][] KanaWordsMeaning = new string[][] {
             // Hiragana
             // あ行 (A-row)
             new string[] { "that thing over there", "over there", "tomorrow", "exist; have", "greeting", "thank you" },

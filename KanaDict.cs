@@ -1,5 +1,5 @@
         // Main Hiragana and Katakana (excluding small kana, sokuon, long marks)
-        public string[] Kana = new string[] {
+        private readonly string[] Kana = new string[] {
             "あ", "い", "う", "え", "お",
             "か", "き", "く", "け", "こ",
             "さ", "し", "す", "せ", "そ",

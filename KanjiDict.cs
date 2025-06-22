@@ -1,4 +1,4 @@
-        public string[] kanji = new string[] {
+        private readonly string[] kanji = new string[] {
             "日", "月", "火", "水", "木", "金", "土", "山", "川", "田",
             "人", "口", "車", "門", "学", "校", "生", "先", "私", "友",
             "母", "父", "子", "女", "男", "雨", "電", "花", "石", "空",
@@ -10,7 +10,7 @@
             "木", "火", "水", "土", "金", "風", "雨", "雪", "雷", "光"
         };
 
-        public string[] kanjiPronunciation = new string[] {
+        private readonly string[] kanjiPronunciation = new string[] {
             "nichi", "getsu", "ka", "sui", "moku", "kin", "do", "yama", "kawa", "ta",
             "hito", "kuchi", "kuruma", "mon", "gaku", "kou", "sei", "sen", "watashi", "tomo",
             "haha", "chichi", "ko", "onna", "otoko", "ame", "den", "hana", "ishi", "sora",
@@ -22,7 +22,7 @@
             "ki", "hi", "mizu", "tsuchi", "kin", "kaze", "ame", "yuki", "kaminari", "hikari"
         };
 
-        public string[] kanjiMeaning = new string[] {
+        private readonly string[] kanjiMeaning = new string[] {
             "sun/day", "moon/month", "fire", "water", "wood", "gold", "earth", "mountain", "river", "rice field",
             "person", "mouth", "car", "gate", "study", "school", "life", "previous", "I/me", "friend",
             "mother", "father", "child", "woman", "man", "rain", "electricity", "flower", "stone", "sky",
