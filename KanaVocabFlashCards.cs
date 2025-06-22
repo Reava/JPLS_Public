@@ -322,18 +322,18 @@
             new string[] { "suru", "sushi", "sumimasen", "sugu", "suki", "sugoi" },
             new string[] { "shimasen", "sensei", "sentaku", "semai", "sekkaku", "aseru" },
             new string[] { "sore", "soko", "sōdesu", "soba", "sōji", "sorosoro" },
-            // た行 (Ta-row)
-            new string[] { "ta", "ta", "ta", "ta", "ta", "ta" },
-            new string[] { "chi", "chi", "chi", "chi", "chi", "chi" },
-            new string[] { "tsu", "tsu", "tsu", "tsu", "tsu", "tsu" },
-            new string[] { "te", "te", "te", "te", "te", "te" },
-            new string[] { "to", "to", "to", "to", "to", "to" },
-            // な行 (Na-row)
-            new string[] { "na", "na", "na", "na", "na", "na" },
-            new string[] { "ni", "ni", "ni", "ni", "ni", "ni" },
-            new string[] { "nu", "nu", "nu", "nu", "nu", "nu" },
-            new string[] { "ne", "ne", "ne", "ne", "ne", "ne" },
-            new string[] { "no", "no", "no", "no", "no", "no" },
+            // た行 (Ta-row) - Contribution by Nerazawa
+            new string[] { "taberu", "tatami", "takusan", "tada", "tamago", "tanoshii" },
+            new string[] { "chichi", "chigau", "chika", "chiisai", "chikai", "kocchi" },
+            new string[] { "tsugi", "tsuzuku", "tsukemono", "tsuyoi", "tsumaranai", "tsumori" },
+            new string[] { "te", "tegami", "tenki", "tenpura", "tetsudau", "tebukuro" },
+            new string[] { "tori", "tomodachi", "tokei", "totemo", "tōfu", "koretosore" },
+            // た行 (Ta-row) - Contribution by Nerazawa
+            new string[] { "たべる", "たたみ", "たくさん", "ただ", "たまご", "たのしい" },
+            new string[] { "ちち", "ちがう", "ちか", "ちいさい", "ちかい", "こっち" },
+            new string[] { "つぎ", "つづく", "つけもの", "つよい", "つまらない", "つもり" },
+            new string[] { "て", "てがみ", "てんき", "てんぷら", "てつだう", "てぶくろ" },
+            new string[] { "とり", "ともだち", "とけい", "とても", "とうふ", "これとそれ" },
             // は行 (Ha-row)
             new string[] { "ha", "ha", "ha", "ha", "ha", "ha" },
             new string[] { "hi", "hi", "hi", "hi", "hi", "hi" },
@@ -626,12 +626,12 @@
             new string[] { "do", "sushi", "I'm sorry; Thank you", "right away, soon, immediately", "like", "terrific, amazing, terrible" },
             new string[] { "not do", "teacher; doctor", "laundry", "narrow; confined", "with special trouble or effort", "be in a hurry; be impatient" },
             new string[] { "that thing", "that place", "It's as you said", "buckwheat noodle; near, vicinity", "clean something", "slowly; soon; any time now" },
-            // た行 (Ta-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            // た行 (Ta-row) - Contribution by Nerazawa
+            new string[] { "eat", "tatami; mat", "much; many", "free of charge; but; simply", "egg", "fun; enjoyable" },
+            new string[] { "father; my father", "be different; be wrong", "basement", "small", "close", "this side; here" },
+            new string[] { "next", "continue; to be continued", "pickles", "strong; sturdy", "boring; trifling", "plan; intention" },
+            new string[] { "hand", "letter", "weather", "tempura", "help; lend a hand", "glove" },
+            new string[] { "bird; chicken", "friend", "clock; watch", "very; extremely", "tofu", "this thing and that thing near you" },
             // な行 (Na-row)
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
