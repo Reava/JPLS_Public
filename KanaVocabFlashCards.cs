@@ -1,11 +1,12 @@
+
         private readonly string[][] KanaWords = new string[][] {
             // Hiragana
             // あ行 (A-row) - Contribution by Object777
-            new string[] { "are", "asoko", "ashita", "arimasu", "aisatsu", "arigatō" },
-            new string[] { "iie", "itsu", "inu", "iru", "ichigo", "itadakimasu" },
-            new string[] { "uchi", "ushiro", "ue", "udon", "urusai", "ureshii" },
-            new string[] { "ee", "eki", "ebi", "eigo", "enpitsu", "en" },
-            new string[] { "ohayō", "otona", "oishii", "owari", "omoshiroi", "omocha" },
+            new string[] { "あれ", "あそこ", "あした", "あります", "あいさつ", "ありがとう" },
+            new string[] { "いいえ", "いつ", "いぬ", "いる", "いちご", "いただきます" },
+            new string[] { "うち", "うしろ", "うえ", "うどん", "うるさい", "うれしい" },
+            new string[] { "ええ", "えき", "えび", "えいご", "えんぴつ", "えん" },
+            new string[] { "おはよう", "おとな", "おいしい", "おわり", "おもしろい", "おもちゃ" },
             // か行 (Ka-row) - Contribution by Object777
             new string[] { "かさ", "かばん", "かお", "かわいい", "かける", "しかし" },
             new string[] { "きのう", "きれい", "きもの", "きみ", "きっぷ", "きらい" },
@@ -36,16 +37,16 @@
             new string[] { "ふたつ", "ふとん", "ふろ", "ふる", "ふれる", "ふく" },
             new string[] { "へや", "へた", "へる", "こちらへどうぞ", "どちらへ？", "みなさんへ" },
             new string[] { "ほんとう", "ほしい", "ほとんど", "ほうき", "ほこり", "ほうれんそう" },
-            // ま行 (Ma-row)
-            new string[] { "ま", "ま", "ま", "ま", "ま", "ま" },
-            new string[] { "み", "み", "み", "み", "み", "み" },
-            new string[] { "む", "む", "む", "む", "む", "む" },
-            new string[] { "め", "め", "め", "め", "め", "め" },
-            new string[] { "も", "も", "も", "も", "も", "も" },
-            // や行 (Ya-row)
-            new string[] { "や", "や", "や", "や", "や", "や" },
-            new string[] { "ゆ", "ゆ", "ゆ", "ゆ", "ゆ", "ゆ" },
-            new string[] { "よ", "よ", "よ", "よ", "よ", "よ" },
+            // ま行 (Ma-row - Contribution by Soup
+            new string[] { "まえ", "まだ", "まっすぐ", "まね", "まくら", "まじめ" },
+            new string[] { "みどり", "みかん", "みなさん", "みぎ", "みみ", "みそしる" },
+            new string[] { "むり", "むすめ", "（お）むすび", "むこう", "むずかしい", "むしあつい" },
+            new string[] { "め", "めし", "めん", "めがね", "めんどう", "おめでとう" },
+            new string[] { "もの", "もう", "もし", "もらう", "もっと", "もてる" },
+            // や行 (Ya-row) - Contribution by Soup
+            new string[] { "やる", "やさしい", "やきとり", "やすみ", "やめる", "やかましい" },
+            new string[] { "ゆ", "ゆき", "ゆめ", "ゆうびん", "ゆっくり", "ゆず" },
+            new string[] { "よく", "よこ", "よむ", "よる", "よろしく", "よかった" },
             // ら行 (Ra-row) - Contribution by JustJaime
             new string[] { "あちら", "さくら", "いらっしゃいませ", "らしい", "らく", "らいねん" },
             new string[] { "りんご", "りっぱ", "いります", "りかい", "りこん", "りゆう" },
@@ -57,30 +58,30 @@
             new string[] { "これをください。", "すしをたべた。", "そうじをした。", "めがねをかけた。", "あいさつをした。", "ここをかたづけよう。" },
             new string[] { "みんな", "うん", "こんにちは。", "おんな", "ぜんぜん", "まんが" },
             // 濁音 (Dakuon - Voiced sounds)
-            // が行 (Ga-row)
-            new string[] { "が", "が", "が", "が", "が", "が" },
-            new string[] { "ぎ", "ぎ", "ぎ", "ぎ", "ぎ", "ぎ" },
-            new string[] { "ぐ", "ぐ", "ぐ", "ぐ", "ぐ", "ぐ" },
-            new string[] { "げ", "げ", "げ", "げ", "げ", "げ" },
-            new string[] { "ご", "ご", "ご", "ご", "ご", "ご" },
-            // ざ行 (Za-row)
-            new string[] { "ざ", "ざ", "ざ", "ざ", "ざ", "ざ" },
-            new string[] { "じ", "じ", "じ", "じ", "じ", "じ" },
-            new string[] { "ず", "ず", "ず", "ず", "ず", "ず" },
-            new string[] { "ぜ", "ぜ", "ぜ", "ぜ", "ぜ", "ぜ" },
-            new string[] { "ぞ", "ぞ", "ぞ", "ぞ", "ぞ", "ぞ" },
-            // だ行 (Da-row)
-            new string[] { "だ", "だ", "だ", "だ", "だ", "だ" },
-            new string[] { "ぢ", "ぢ", "ぢ", "ぢ", "ぢ", "ぢ" },
-            new string[] { "づ", "づ", "づ", "づ", "づ", "づ" },
-            new string[] { "で", "で", "で", "で", "で", "で" },
-            new string[] { "ど", "ど", "ど", "ど", "ど", "ど" },
-            // ば行 (Ba-row)
-            new string[] { "ば", "ば", "ば", "ば", "ば", "ば" },
-            new string[] { "び", "び", "び", "び", "び", "び" },
-            new string[] { "ぶ", "ぶ", "ぶ", "ぶ", "ぶ", "ぶ" },
-            new string[] { "べ", "べ", "べ", "べ", "べ", "べ" },
-            new string[] { "ぼ", "ぼ", "ぼ", "ぼ", "ぼ", "ぼ" },
+            // が行 (Ga-row)) - Contribution by Soup
+            new string[] { "これがいい。", "すみませんが", "がんばる", "がいじん", "がっかりする", "がまんする" },
+            new string[] { "ぎんこう", "かぎ", "おにぎり", "ぎり", "ぎりぎり", "かぎる" },
+            new string[] { "ぐあい", "ぐち", "ぐずぐず", "なぐる", "ぐうぜん", "ぐらい" },
+            new string[] { "げんき", "げんかん", "げり", "げつまつ", "げんご", "げんいん" },
+            new string[] { "ごはん", "ごみ", "ごちそうさま", "ございます", "ごま", "ごろ" },
+            // ざ行 (Za-row) - Contribution by Soup
+            new string[] { "ざぶとん", "ざんねん", "ざっし", "ざる", "ざしき", "うざい" },
+            new string[] { "じかん", "じぶん", "じこ", "じしん", "じてんしゃ", "じこちゅう" },
+            new string[] { "ずるい", "ずいぶん", "ずっと", "ずれる", "ずらす", "ずぼん" },
+            new string[] { "ぜんぶ", "かぜ", "まぜる", "ぜひ", "ぜったい", "ぜんたい" },
+            new string[] { "どうぞ", "ぞう", "ごぞんじ です", "ぞうり", "ぞくする", "ぞくぞく" },
+            // だ行 (Da-row) - Contribution by Soup
+            new string[] { "だめ", "だから", "だんだん", "だいじょうぶ", "だいがく", "だけ" },
+            new string[] { "ちぢむ", "ちぢれる", "はなぢ", "てじか", "ちかじか", "わるきえ" },
+            new string[] { "かたづける", "つづける", "つづく", "つづり", "かんづめ", "きづく" },
+            new string[] { "でんわ", "できる", "でんき", "でかける", "です", "でたらめ" },
+            new string[] { "どれ", "どうも", "どじ", "どこ", "どうして", "どろぼう" },
+            // ば行 (Ba-row) - Contribution by Soup
+            new string[] { "ばか", "ばんざい", "ばら", "ばれる", "ばらばら", "ばかり" },
+            new string[] { "びん", "びっくりする", "びっしょり", "びみょう", "びびる", "びんぼう" },
+            new string[] { "あぶない", "ぶどう", "ぶた", "ぶっか", "ぶんか", "ぶしつけ" },
+            new string[] { "べんきょう", "べんとう", "べつ", "べつべつ", "べんり", "べんごし" },
+            new string[] { "ぼく", "ぼうし", "ぼろぼろ", "ぼっちゃん", "ぼう", "ぼうえき" },
             // ぱ行 (Pa-row)
             new string[] { "ぱ", "ぱ", "ぱ", "ぱ", "ぱ", "ぱ" },
             new string[] { "ぴ", "ぴ", "ぴ", "ぴ", "ぴ", "ぴ" },
@@ -305,11 +306,11 @@
         private readonly string[][] KanaWordsRomaji = new string[][] {
             // Hiragana
             // あ行 (A-row) - Contribution by Object777
-            new string[] { "that thing over there", "over there", "tomorrow", "exist; have", "greeting", "thank you" },
-            new string[] { "[negation] no", "when", "dog", "exist", "strawberry", "drink, eat, accept [polite]" },
-            new string[] { "house, home", "behind; back", "above; on; over", "noodle", "noisy, annoying", "be glad; be happy; be delighted" },
-            new string[] { "[affirmation] yes", "station", "shrimp", "English", "pencil", "yen" },
-            new string [] { "Good morning", "adult", "delicious", "end", "interesting; fun", "toy"},
+            new string[] { "are", "asoko", "ashita", "arimasu", "aisatsu", "arigatō" },
+            new string[] { "iie", "itsu", "inu", "iru", "ichigo", "itadakimasu" },
+            new string[] { "uchi", "ushiro", "ue", "udon", "urusai", "ureshii" },
+            new string[] { "ee", "eki", "ebi", "eigo", "enpitsu", "en" },
+            new string[] { "ohayō", "otona", "oishii", "owari", "omoshiroi", "omocha" },
             // か行 (Ka-row) - Contribution by Object777
             new string[] { "kasa", "kaban", "kao", "kawaii", "kakeru", "shikashi" },
             new string[] { "kinō", "kirei", "kimono", "kimi", "kippu", "kirai" },
@@ -340,16 +341,16 @@
             new string[] { "futatsu", "futon", "furo", "furu", "fureru", "fuku" },
             new string[] { "heya", "heta", "heru", "Kochira e dōzo.", "Dochira e?", "minasan e" },
             new string[] { "hontō", "hoshii", "hotondo", "hōki", "hokori", "hōrensō" },
-            // ま行 (Ma-row)
-            new string[] { "ma", "ma", "ma", "ma", "ma", "ma" },
-            new string[] { "mi", "mi", "mi", "mi", "mi", "mi" },
-            new string[] { "mu", "mu", "mu", "mu", "mu", "mu" },
-            new string[] { "me", "me", "me", "me", "me", "me" },
-            new string[] { "mo", "mo", "mo", "mo", "mo", "mo" },
-            // や行 (Ya-row)
-            new string[] { "ya", "ya", "ya", "ya", "ya", "ya" },
-            new string[] { "yu", "yu", "yu", "yu", "yu", "yu" },
-            new string[] { "yo", "yo", "yo", "yo", "yo", "yo" },
+            // ま行 (Ma-row) - Contribution by Soup
+            new string[] { "mae", "mada", "massugu", "mane", "makura", "majime" },
+            new string[] { "midori", "mikan", "minasan", "migi", "mimi", "misoshiru" },
+            new string[] { "muri", "musume", "(o)musubi", "mukō", "muzukashii", "mushiatsui" },
+            new string[] { "me", "meshi", "men", "megane", "mendō", "omedetō" },
+            new string[] { "mono", "mō", "moshi", "morau", "motto", "moteru" },
+            // や行 (Ya-row) - Contribution by Soup
+            new string[] { "yaru", "yasashii", "yakitori", "yasumi", "yameru", "yakamashii" },
+            new string[] { "yu", "yuki", "yume", "yūbin", "yukkuri", "yuzu" },
+            new string[] { "yoku", "yoko", "yomu", "yoru", "yoroshiku", "yokatta" },
             // ら行 (Ra-row) - Contribution by JustJaime
             new string[] { "achira", "sakura", "irasshaimase", "rashii", "raku", "rainen" },
             new string[] { "ringo", "rippa", "irimasu", "rikai", "rikon", "riyū" },
@@ -361,30 +362,30 @@
             new string[] { "Kore o kudasai.", "Sushi o tabeta.", "Sōji o shita", "Megane o kaketa.", "Aisatsu o shita.", "Koko o katazukeyō." },
             new string[] { "minna", "un", "Konnichiwa.", "onna", "zenzen", "manga" },
             // 濁音 (Dakuon - Voiced sounds)
-            // が行 (Ga-row)
-            new string[] { "ga", "ga", "ga", "ga", "ga", "ga" },
-            new string[] { "gi", "gi", "gi", "gi", "gi", "gi" },
-            new string[] { "gu", "gu", "gu", "gu", "gu", "gu" },
-            new string[] { "ge", "ge", "ge", "ge", "ge", "ge" },
-            new string[] { "go", "go", "go", "go", "go", "go" },
-            // ざ行 (Za-row)
-            new string[] { "za", "za", "za", "za", "za", "za" },
-            new string[] { "ji", "ji", "ji", "ji", "ji", "ji" },
-            new string[] { "zu", "zu", "zu", "zu", "zu", "zu" },
-            new string[] { "ze", "ze", "ze", "ze", "ze", "ze" },
-            new string[] { "zo", "zo", "zo", "zo", "zo", "zo" },
-            // だ行 (Da-row)
-            new string[] { "da", "da", "da", "da", "da", "da" },
-            new string[] { "ji", "ji", "ji", "ji", "ji", "ji" },
-            new string[] { "zu", "zu", "zu", "zu", "zu", "zu" },
-            new string[] { "de", "de", "de", "de", "de", "de" },
-            new string[] { "do", "do", "do", "do", "do", "do" },
-            // ば行 (Ba-row)
-            new string[] { "ba", "ba", "ba", "ba", "ba", "ba" },
-            new string[] { "bi", "bi", "bi", "bi", "bi", "bi" },
-            new string[] { "bu", "bu", "bu", "bu", "bu", "bu" },
-            new string[] { "be", "be", "be", "be", "be", "be" },
-            new string[] { "bo", "bo", "bo", "bo", "bo", "bo" },
+            // が行 (Ga-row) - Contribution by Soup
+            new string[] { "kore ga ii.", "sumimasen ga", "ganbaru", "gaijin", "gakkari suru", "gaman suru" },
+            new string[] { "ginkō", "kagi", "onigiri", "giri", "girigiri", "kagiru" },
+            new string[] { "guai", "guchi", "guzuguzu", "naguru", "gūzen", "gurai" },
+            new string[] { "genki", "genkan", "geri", "getsumatsu", "gengo", "genin" },
+            new string[] { "gohan", "gomi", "gochisōsama", "gozaimasu", "goma", "goro" },
+            // ざ行 (Za-row) - Contribution by Soup
+            new string[] { "zabuton", "zannen", "zasshi", "zaru", "zashiki", "uzai" },
+            new string[] { "jikan", "jibun", "jiko", "jishin", "jitensha", "jikochū" },
+            new string[] { "zurui", "zuibun", "zutto", "zureru", "zurasu", "zubon" },
+            new string[] { "zenbu", "kaze", "mazeru", "zehi", "zettai", "zentai" },
+            new string[] { "dōzo", "zō", "gozonji desu", "zōri", "zokusuru", "zokuzoku" },
+            // だ行 (Da-row) - Contribution by Soup
+            new string[] { "dame", "dakara", "dandan", "daijōbu", "daigaku", "dake" },
+            new string[] { "chijimu", "chijireru", "hanaji", "tejika", "chikajika", "warukie" },
+            new string[] { "katazukeru", "tsuzukeru", "tsuzuku", "tsuzuri", "kanzume", "kizuku" },
+            new string[] { "denwa", "dekiru", "denki", "dekakeru", "desu", "detarame" },
+            new string[] { "dore", "dōmo", "doji", "doko", "dōshite", "dorobō" },
+            // ば行 (Ba-row) - Contribution by Soup
+            new string[] { "baka", "banzai", "bara", "bareru", "barabara", "bakari" },
+            new string[] { "bin", "bikkurisuru", "bisshori", "bimyō", "bibiru", "binbō" },
+            new string[] { "abunai", "budō", "buta", "bukka", "bunka", "bushitsuke" },
+            new string[] { "benkyō", "bentō", "betsu", "betsubetsu", "benri", "bengoshi" },
+            new string[] { "boku", "bōshi", "boroboro", "bocchan", "bō", "bōeki" },
             // ぱ行 (Pa-row)
             new string[] { "pa", "pa", "pa", "pa", "pa", "pa" },
             new string[] { "pi", "pi", "pi", "pi", "pi", "pi" },
@@ -644,16 +645,16 @@
             new string[] { "two units", "futon", "bath", "fall (rain)", "touch", "wipe" },
             new string[] { "room", "unskillful; poor at", "decrease", "Please, this way.", "Where to?", "to everyone" },
             new string[] { "truth", "want; in need of", "mostly", "broom", "dust", "spinach" },
-            // ま行 (Ma-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // や行 (Ya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            // ま行 (Ma-row) - Contribution by Soup
+            new string[] { "front; before", "[+negative] not yet, [+affirmation] still", "straight", "mimicry; pretense", "sleeping pillow", "diligent; serious" },
+            new string[] { "green", "mandarin orange", "[polite] everyone", "right; right-hand side", "ear", "miso soup" },
+            new string[] { "unreasonable; impossible", "daugther", "rice ball", "over there", "difficult", "humid; sultry" },
+            new string[] { "eye", "cooked rice; meal", "noodles; mask", "eyeglasses", "troublesome,bothersome", "Congratulation!" },
+            new string[] { "thing", "already, yet, no more", "if", "receive", "more", "popular" },
+            // や行 (Ya-row) - Contribution by Soup
+            new string[] { "do; give", "easy; kind", "yakitori (chicken dish)", "vacation, break, closed for business", "quit, stop", "noisy, annoying" },
+            new string[] { "hot water, bath", "snow", "dream", "mail; postal service", "slowly, leisurely", "japanese citron; yuzu" },
+            new string[] { "often, well, a lot", "side horizontal", "read", "night", "Best regards, Thank you in advance", "was good, Great!" },
             // ら行 (Ra-row) - Contribution by JustJaime
             new string[] { "that way; over there", "cherry blossom", "Welcome!", "apparently", "comfortable; easy; relaxing", "next year" },
             new string[] { "apple", "spendid; eminent", "need", "understanding", "divorce", "reason" },
@@ -665,30 +666,30 @@
             new string[] { "Please give this to me.", "(I) ate sushi.", "(I) cleaned.", "(I) put on glasses.", "(I) greeted.", "Let's clean here." },
             new string[] { "everyone; all", "[affirmation/informal] yes", "Good day.", "female", "(not) at all", "manga comics" },
             // 濁音 (Dakuon - Voiced sounds)
-            // が行 (Ga-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ざ行 (Za-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // だ行 (Da-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ば行 (Ba-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            // が行 (Ga-row) - Contribution by Soup
+            new string[] { "[particle indicating subject] This is good", "[clause particle] Excuse me...", "persevere, keep at it", "foreigner", "become disappointed", "endure" },
+            new string[] { "bank", "key, lock", "rice ball", "obligation", "just barely", "limit" },
+            new string[] { "condition", "idle complaint; grumble", "act tardily, hesitantly", "strike; hit", "by chance", "about, approximately (in quantity)" },
+            new string[] { "vigorous, healthy", "entry hall", "diarrhea", "end of month", "language", "cause" },
+            new string[] { "cooked rice; meal", "trash, dust", "It was delicious. (Thank you.)", "we have it.", "sesame", "[approximate point in time] about" },
+             // ざ行 (Za-row) - Contribution by Soup
+            new string[] { "flat floor cushion", "regrettable", "magazine", "sieve; bamboo strainer", "formal tatami room", "annoying [colloquial]" },
+            new string[] { "time", "self", "accident", "earthquake", "bicycle", "selfish, self-centered [colloquial]" },
+            new string[] { "sly; cunning", "awfully, very", "all the way, by far", "slip off", "move; put off", "trousers" },
+            new string[] { "all; the whole thing", "wind, breeze, cold [illness]", "mix, stir, blend", "by all means", "absolutely", "whole; entirety" },
+            new string[] { "please (speaker offering something)", "elephant", "know [honorific]", "zori (japanese sandals)", "belong; be affiliated with", "shiver; feeling chilly" },
+            // だ行 (Da-row) - Contribution by Soup
+            new string[] { "no good", "so; therefore", "gradually", "all right; safe", "university", "just, only" },
+            new string[] { "shrink", "become wavy; become curly", "nosebleed", "near by; close by", "shortly; soon", "craft, cunning" },
+            new string[] { "tidy up; put away", "keep up; continue something", "continue; go on", "spelling", "canned goods", "notice; recognize" },
+            new string[] { "phone", "can do; come into being", "electricity; light", "go out", "[copula, formal] be", "nonsense; bullshit" },
+            new string[] { "which one", "in every way; somehow; Thank you", "blunder, clumsiness [colloquial]", "where", "why", "thief" },
+            // ば行 (Ba-row) - Contribution by Soup
+            new string[] { "fool; absurd", "[celebratory] hurrah", "rose", "leak out; become exposed", "scattered; in pieces; disconnected", "only; little else but" },
+            new string[] { "bottle; jar", "become surprised", "drenched", "delicate; subtle; questionable", "get cold feet; get frightened", "poor" },
+            new string[] { "dangerous", "grapes", "pig", "commodity prices", "culture", "impolite; rude" },
+            new string[] { "study", "box lunch", "separate; different", "separate", "convenient", "lawyer" },
+            new string[] { "me, I (male term/language)", "hat", "worn out, tattered", "son, your son, young man [polite]", "stick, rod", "trade" },
             // ぱ行 (Pa-row)
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
