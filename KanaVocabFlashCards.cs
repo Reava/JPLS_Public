@@ -89,14 +89,14 @@
             new string[] { "ぺ", "ぺ", "ぺ", "ぺ", "ぺ", "ぺ" },
             new string[] { "ぽ", "ぽ", "ぽ", "ぽ", "ぽ", "ぽ" },
             // 拗音 (Youon - Contracted sounds)
-            // きゃ行 (Kya-row)
-            new string[] { "きゃ", "きゃ", "きゃ", "きゃ", "きゃ", "きゃ" },
-            new string[] { "きゅ", "きゅ", "きゅ", "きゅ", "きゅ", "きゅ" },
-            new string[] { "きょ", "きょ", "きょ", "きょ", "きょ", "きょ" },
-            // しゃ行 (Sha-row)
-            new string[] { "しゃ", "しゃ", "しゃ", "しゃ", "しゃ", "しゃ" },
-            new string[] { "しゅ", "しゅ", "しゅ", "しゅ", "しゅ", "しゅ" },
-            new string[] { "しょ", "しょ", "しょ", "しょ", "しょ", "しょ" },
+            // きゃ行 (Kya-row) - Contribution by Nerazawa
+            new string[] { "きゃく", "おきゃくさん", "きゃくしつ", "しょうきゃく", "しっきゃく", "きゃっかんてき" },
+            new string[] { "きゅう", "きゅうけい", "けんきゅう", "きゅうきゅうしゃ", "きゅうり", "きゅうしょく" },
+            new string[] { "きょう", "きょねん", "きょうしつ", "せんきょ", "きょり", "きょうみ" },
+            // しゃ行 (Sha-row) - Contribution by nerazawa
+            new string[] { "しゃしん", "しゃべる", "しゃかい", "しゃいん", "しゃぶしゃぶ", "いしゃ" },
+            new string[] { "しゅみ", "しゅくだい", "しゅじん", "しゅるい", "しゅう", "しゅっちょう" },
+            new string[] { "しょうゆ", "しょうかい", "しょうがない", "でしょう", "しましょう", "しょうがっこう" },
             // ちゃ行 (Cha-row)
             new string[] { "ちゃ", "ちゃ", "ちゃ", "ちゃ", "ちゃ", "ちゃ" },
             new string[] { "ちゅ", "ちゅ", "ちゅ", "ちゅ", "ちゅ", "ちゅ" },
@@ -393,14 +393,14 @@
             new string[] { "pe", "pe", "pe", "pe", "pe", "pe" },
             new string[] { "po", "po", "po", "po", "po", "po" },
             // 拗音 (Youon - Contracted sounds)
-            // きゃ行 (Kya-row)
-            new string[] { "kya", "kya", "kya", "kya", "kya", "kya" },
-            new string[] { "kyu", "kyu", "kyu", "kyu", "kyu", "kyu" },
-            new string[] { "kyo", "kyo", "kyo", "kyo", "kyo", "kyo" },
-            // しゃ行 (Sha-row)
-            new string[] { "sha", "sha", "sha", "sha", "sha", "sha" },
-            new string[] { "shu", "shu", "shu", "shu", "shu", "shu" },
-            new string[] { "sho", "sho", "sho", "sho", "sho", "sho" },
+            // きゃ行 (Kya-row) - Contribution by Nerazawa
+            new string[] { "kyaku", "okyaku san", "kyakushitsu", "shōkyaku", "shikkyaku", "kyakkanteki" },
+            new string[] { "kyū", "kyūkei", "kenkyū", "kyūkyūsha", "kyūri", "kyūshoku" },
+            new string[] { "kyō", "kyonen", "kyōshitsu", "senkyo", "kyori", "kyōmi" },
+            // しゃ行 (Sha-row) - Contribution by nerazawa
+            new string[] { "shashin", "shaberu", "shakai", "shain", "shabushabu", "isha" },
+            new string[] { "shumi", "shukudai", "shujin", "shurui", "shū", "shucchō" },
+            new string[] { "shōyu", "shōkai", "shō ga nai", "deshō", "shimashō", "shōgakkō" },
             // ちゃ行 (Cha-row)
             new string[] { "cha", "cha", "cha", "cha", "cha", "cha" },
             new string[] { "chu", "chu", "chu", "chu", "chu", "chu" },
@@ -697,15 +697,14 @@
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
             // 拗音 (Youon - Contracted sounds)
-            // きゃ行 (Kya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // しゃ行 (Sha-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            // きゃ行 (Kya-row) - Contribution by Nerazawa
+            new string[] { "guest; visitor, customer [plain]", "guest; visitor, customer [polite]", "guest room; cabin; (hotel) room", "incineration", "being overthrown", "objectively" },
+            new string[] { "urgent; steep; sudden", "rest; break", "research", "ambulance", "cucumber", "school lunch" },
+            new string[] { "today", "last year", "class room", "election", "distance", "interest (in something)" },
+            // しゃ行 (Sha-row) - Contribution by nerazawa
+            new string[] { "photo", "speak, talk, chat", "society", "company employee", "shabu-shabu (Japanese hot pot dish)", "doctor" },
+            new string[] { "hobby; tastes", "homework", "husband; my husband, proprietor (of a store), landlord, master", "kind, type", "week", "business trip" },
+            new string[] { "soy sauce", "introduction", "nothing can be done", "[copula; tentative] probably be", "Let's do; why don't I do?", "elementary school" },
             // ちゃ行 (Cha-row)
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
