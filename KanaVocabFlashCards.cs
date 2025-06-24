@@ -82,12 +82,12 @@
             new string[] { "あぶない", "ぶどう", "ぶた", "ぶっか", "ぶんか", "ぶしつけ" },
             new string[] { "べんきょう", "べんとう", "べつ", "べつべつ", "べんり", "べんごし" },
             new string[] { "ぼく", "ぼうし", "ぼろぼろ", "ぼっちゃん", "ぼう", "ぼうえき" },
-            // ぱ行 (Pa-row)
-            new string[] { "ぱ", "ぱ", "ぱ", "ぱ", "ぱ", "ぱ" },
-            new string[] { "ぴ", "ぴ", "ぴ", "ぴ", "ぴ", "ぴ" },
-            new string[] { "ぷ", "ぷ", "ぷ", "ぷ", "ぷ", "ぷ" },
-            new string[] { "ぺ", "ぺ", "ぺ", "ぺ", "ぺ", "ぺ" },
-            new string[] { "ぽ", "ぽ", "ぽ", "ぽ", "ぽ", "ぽ" },
+            // ぱ行 (Pa-row) - Contribution by JustJaime
+            new string[] { "ぱちぱち", "ぱらぱら", "ぱっと", "すっぱい", "さっぱり", "つっぱる" },
+            new string[] { "ぴかぴか", "ちょっぴり", "ぴったり", "ぴりから", "へっぴりごし", "だだっぴろい" },
+            new string[] { "じゅっぷん", "せんぷうき", "うっぷん", "まんぷく", "しらんぷり", "にんぷ" },
+            new string[] { "ぺらぺら", "ぺこぺこ", "ぺちゃんこ", "ぺちゃくちゃ", "てっぺん", "いっぺん" },
+            new string[] { "にっぽん", "さんぽ", "ぽんず", "しっぽ", "こどもっぽい", "いっぽうつうこう" },
             // 拗音 (Youon - Contracted sounds)
             // きゃ行 (Kya-row) - Contribution by Nerazawa
             new string[] { "きゃく", "おきゃくさん", "きゃくしつ", "しょうきゃく", "しっきゃく", "きゃっかんてき" },
@@ -97,14 +97,14 @@
             new string[] { "しゃしん", "しゃべる", "しゃかい", "しゃいん", "しゃぶしゃぶ", "いしゃ" },
             new string[] { "しゅみ", "しゅくだい", "しゅじん", "しゅるい", "しゅう", "しゅっちょう" },
             new string[] { "しょうゆ", "しょうかい", "しょうがない", "でしょう", "しましょう", "しょうがっこう" },
-            // ちゃ行 (Cha-row)
-            new string[] { "ちゃ", "ちゃ", "ちゃ", "ちゃ", "ちゃ", "ちゃ" },
-            new string[] { "ちゅ", "ちゅ", "ちゅ", "ちゅ", "ちゅ", "ちゅ" },
-            new string[] { "ちょ", "ちょ", "ちょ", "ちょ", "ちょ", "ちょ" },
-            // にゃ行 (Nya-row)
-            new string[] { "にゃ", "にゃ", "にゃ", "にゃ", "にゃ", "にゃ" },
-            new string[] { "にゅ", "にゅ", "にゅ", "にゅ", "にゅ", "にゅ" },
-            new string[] { "にょ", "にょ", "にょ", "にょ", "にょ", "にょ" },
+            // ちゃ行 (Cha-row) - Contribution by Object777
+            new string[] { "おちゃ", "ちゃん", "ちゃんと", "めちゃくちゃ", "ちゃわん", "ちゃぱつ" },
+            new string[] { "ちゅうい", "ちゅうごく", "ちゅうがっこう", "ちゅうしょく", "はなしちゅう", "ちゅうかりょうり" },
+            new string[] { "ちょっと", "ちょうど", "ちょくせつ", "ちょきん", "しゃちょう", "ちょう" },
+            // にゃ行 (Nya-row) - Contribution by Object777
+            new string[] { "にやんこ", "ぐにやぐにや", "こんにやく", "にやあにやあ", "ろうにゃくなんにょ", "ふにゃふにゃ" },
+            new string[] { "にゅうりょく", "にゅうがく", "にゅうかい", "にゅういん", "きにゅうする", "ほにゅうるい" },
+            new string[] { "にょう", "にょうけんさ", "にょうぼう", "にょうぼうもち", "にょきにょき", "にょろにょろ" },
             // ひゃ行 (Hya-row)
             new string[] { "ひゃ", "ひゃ", "ひゃ", "ひゃ", "ひゃ", "ひゃ" },
             new string[] { "ひゅ", "ひゅ", "ひゅ", "ひゅ", "ひゅ", "ひゅ" },
@@ -386,29 +386,29 @@
             new string[] { "abunai", "budō", "buta", "bukka", "bunka", "bushitsuke" },
             new string[] { "benkyō", "bentō", "betsu", "betsubetsu", "benri", "bengoshi" },
             new string[] { "boku", "bōshi", "boroboro", "bocchan", "bō", "bōeki" },
-            // ぱ行 (Pa-row)
-            new string[] { "pa", "pa", "pa", "pa", "pa", "pa" },
-            new string[] { "pi", "pi", "pi", "pi", "pi", "pi" },
-            new string[] { "pu", "pu", "pu", "pu", "pu", "pu" },
-            new string[] { "pe", "pe", "pe", "pe", "pe", "pe" },
-            new string[] { "po", "po", "po", "po", "po", "po" },
+            // ぱ行 (Pa-row) - Contribution by JustJaime
+            new string[] { "pachipachi", "parapara", "patto", "suppai", "sappari", "tsupparu" },
+            new string[] { "pikapika", "choppiri", "pittari", "pirikara", "heppirigoshi", "dadappiroi" },
+            new string[] { "juppun", "senpūki", "uppun", "manpuku", "shiranpuri", "ninpu" },
+            new string[] { "perapera", "pekopeko", "pechanko", "pechakucha", "teppen", "ippen" },
+            new string[] { "Nippon", "sanpo", "ponzu", "shippo", "kodomoppoi", "ippōtsūkō" },
             // 拗音 (Youon - Contracted sounds)
             // きゃ行 (Kya-row) - Contribution by Nerazawa
             new string[] { "kyaku", "okyaku san", "kyakushitsu", "shōkyaku", "shikkyaku", "kyakkanteki" },
             new string[] { "kyū", "kyūkei", "kenkyū", "kyūkyūsha", "kyūri", "kyūshoku" },
             new string[] { "kyō", "kyonen", "kyōshitsu", "senkyo", "kyori", "kyōmi" },
-            // しゃ行 (Sha-row) - Contribution by nerazawa
+            // しゃ行 (Sha-row) - Contribution by Nerazawa
             new string[] { "shashin", "shaberu", "shakai", "shain", "shabushabu", "isha" },
             new string[] { "shumi", "shukudai", "shujin", "shurui", "shū", "shucchō" },
             new string[] { "shōyu", "shōkai", "shō ga nai", "deshō", "shimashō", "shōgakkō" },
-            // ちゃ行 (Cha-row)
-            new string[] { "cha", "cha", "cha", "cha", "cha", "cha" },
-            new string[] { "chu", "chu", "chu", "chu", "chu", "chu" },
-            new string[] { "cho", "cho", "cho", "cho", "cho", "cho" },
-            // にゃ行 (Nya-row)
-            new string[] { "nya", "nya", "nya", "nya", "nya", "nya" },
-            new string[] { "nyu", "nyu", "nyu", "nyu", "nyu", "nyu" },
-            new string[] { "nyo", "nyo", "nyo", "nyo", "nyo", "nyo" },
+            // ちゃ行 (Cha-row) - Contribution by Object777
+            new string[] { "ocha", "[name]-chan", "chanto", "mechakucha", "chawan", "chapatsu" },
+            new string[] { "chūi", "chūgoku", "chūgakkō", "chūshoku", "hanashichū", "chūkaryōri" },
+            new string[] { "chotto", "chōdo", "chokusetsu", "chokin", "shachō", "chō" },
+            // にゃ行 (Nya-row) - Contribution by Object777
+            new string[] { "nyanko", "gunyagunya", "konnyaku", "nyānyā", "rōnyakunannyo", "funyafunya" },
+            new string[] { "nyūryoku", "nyūgaku", "nyūkai", "nyūin", "kinyū suru", "honyūrui" },
+            new string[] { "nyō", "nyōkensa", "nyōbō", "nyōbōmochi", "nyokinyoki", "nyoronyoro" },
             // ひゃ行 (Hya-row)
             new string[] { "hya", "hya", "hya", "hya", "hya", "hya" },
             new string[] { "hyu", "hyu", "hyu", "hyu", "hyu", "hyu" },
@@ -690,30 +690,29 @@
             new string[] { "dangerous", "grapes", "pig", "commodity prices", "culture", "impolite; rude" },
             new string[] { "study", "box lunch", "separate; different", "separate", "convenient", "lawyer" },
             new string[] { "me, I (male term/language)", "hat", "worn out, tattered", "son, your son, young man [polite]", "stick, rod", "trade" },
-            // ぱ行 (Pa-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            // ぱ行 (Pa-row) - Contribution by JustJaime
+            new string[] { "pleasant clapping sound; incessant blinking", "falling in drops; pattering", "suddenly; in a flash", "sour; tart", "feeling refreshed; completely", "become stiff; act tough" },
+            new string[] { "glitter; sparkle", "a little bit", "exactly; neatly", "spicy", "bent back; prone posture; weak-kneed", "sprawling; very spacious" },
+            new string[] { "ten minutes", "electric fan", "resentment; grudge", "full stomach", "pretending not to know", "pregnant woman" },
+            new string[] { "fluent; thin (paper)", "very hungry; being obsequious", "crushed flat", "chattering; chitchat", "top; peak", "once; a piece (of poetry)" },
+            new string[] { "Japan", "walk; stroll", "ponzu sauce (Japanese vinegar)", "tail", "childish; child-like", "one-way traffic" },
             // 拗音 (Youon - Contracted sounds)
             // きゃ行 (Kya-row) - Contribution by Nerazawa
             new string[] { "guest; visitor, customer [plain]", "guest; visitor, customer [polite]", "guest room; cabin; (hotel) room", "incineration", "being overthrown", "objectively" },
             new string[] { "urgent; steep; sudden", "rest; break", "research", "ambulance", "cucumber", "school lunch" },
             new string[] { "today", "last year", "class room", "election", "distance", "interest (in something)" },
-            // しゃ行 (Sha-row) - Contribution by nerazawa
+            // しゃ行 (Sha-row) - Contribution by Nerazawa
             new string[] { "photo", "speak, talk, chat", "society", "company employee", "shabu-shabu (Japanese hot pot dish)", "doctor" },
             new string[] { "hobby; tastes", "homework", "husband; my husband, proprietor (of a store), landlord, master", "kind, type", "week", "business trip" },
             new string[] { "soy sauce", "introduction", "nothing can be done", "[copula; tentative] probably be", "Let's do; why don't I do?", "elementary school" },
-            // ちゃ行 (Cha-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // にゃ行 (Nya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            // ちゃ行 (Cha-row) - Contribution by Object777
+            new string[] { "tea", "[suffix added to children's names]", "proberly; neatly", "disorder, mess", "rice bowl, serving bowl", "brown hair, dyed hair" },
+            new string[] { "caution; attention, advice", "China", "middle school", "lunch", "[phone] busy", "Chinese cuisine" },
+            new string[] { "a bit, little", "exactly", "directly", "savings", "company president", "butterfly" },
+            // にゃ行 (Nya-row) - Contribution by Object777
+            new string[] { "kitty cat", "flabby; limp", "konjaku (jelly made from a vegetable)", "meow", "men and women of all ages", "limp; soft" },
+            new string[] { "input; data entry", "entry to school", "joining (a group)", "hospitalization", "fill in forms", "mammal" },
+            new string[] { "urine", "urinary test, urine examination", "wife; my wife", "married man", "[tree, plant] shooting up one after another", "wriggling; slithering" },
             // ひゃ行 (Hya-row)
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
