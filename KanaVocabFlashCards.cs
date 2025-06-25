@@ -129,6 +129,8 @@
             new string[] { "じょうず", "じょせい", "じょうだん", "じょしゅ", "じょゆう", "じょじょに" },
             // ぢゃ行 (Dja-row) - Contribution by Soup/Yuka ゆか
             new string[] { "ゆのみぢゃわん", "すもうぢゃや", "ぢゃぐち", "ぢゃま", "ぢゃり", "ぢゃんぷ" },
+            new string[] { "*" },
+            new string[] { "*" },
             // びゃ行 (Bya-row) - Contribution by Soup/Yuka ゆか
             new string[] { "さんびゃく", "なんびゃくえん" },
             new string[] { "びゅうびゅう" },
@@ -431,6 +433,8 @@
             new string[] { "jōzu", "josei", "jōdan", "joshu", "joyū", "jojo ni" },
             // ぢゃ行 (Dja-row) - Contribution by Soup/Yuka ゆか
             new string[] { "yunomi-jawan", "sumō-jaya", "jaguchi", "jama", "jari", "janpu" },
+            new string[] { "*" },
+            new string[] { "*" },
             // びゃ行 (Bya-row) - Contribution by Soup/Yuka ゆか
             new string[] { "sanbyaku", "nan byaku en" },
             new string[] { "byūbyū" },
@@ -720,7 +724,7 @@
             new string[] { "civilian (non-military person)", "music theory" },
             new string[] { "tomorrow", "tomorrow morning", "day after tomorrow", "surname", "strange", "life span" },
             // りゃ行 (Rya-row) - Contribution by Soup/Yuka ゆか
-            new string[] { "abberviation", "acronym; abbreviation", "simplified character", "breif personal record", "omission; abbreviation", "salutation of brief letter (lit. 'first part omitted')" },
+            new string[] { "abbreviation", "acronym; abbreviation", "simplified character", "brief personal record", "omission; abbreviation", "salutation of brief letter (lit. 'first part omitted')" },
             new string[] { "studying abroad", "international exchange student", "fashion; fad", "mainstream", "self-taught manner", "japanese style" },
             new string[] { "travel; trip", "cooking; cuisine", "both parents", "japanese inn", "document; materials; data", "dormitory" },
             // ぎゃ行 (Gya-row) - Contribution by Soup/Yuka ゆか
@@ -733,6 +737,8 @@
             new string[] { "skillful; skilled", "woman; female", "joke", "assistant", "actress", "gradually, little by little" },
             // ぢゃ行 (Dja-row) - Contribution by Soup/Yuka ゆか
             new string[] { "(japanese) tea cup", "ticket agent for sumō", "faucet, tap", "hindrance, nuisance", "gravel", "jump" },
+            new string[] { "*" },
+            new string[] { "*" },
             // びゃ行 (Bya-row) - Contribution by Soup/Yuka ゆか
             new string[] { "three hundred", "how many hundred yen" },
             new string[] { "Howl (sound of wind)" },
