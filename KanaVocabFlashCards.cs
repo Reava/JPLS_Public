@@ -1,4 +1,6 @@
 
+        #region Vocab 
+
         private readonly string[][] KanaWords = new string[][] {
             // Hiragana
             // あ行 (A-row) - Contribution by Object777
@@ -37,13 +39,13 @@
             new string[] { "ふたつ", "ふとん", "ふろ", "ふる", "ふれる", "ふく" },
             new string[] { "へや", "へた", "へる", "こちらへどうぞ", "どちらへ？", "みなさんへ" },
             new string[] { "ほんとう", "ほしい", "ほとんど", "ほうき", "ほこり", "ほうれんそう" },
-            // ま行 (Ma-row - Contribution by Soup
+            // ま行 (Ma-row - Contribution by Soup/Yuka ゆか
             new string[] { "まえ", "まだ", "まっすぐ", "まね", "まくら", "まじめ" },
             new string[] { "みどり", "みかん", "みなさん", "みぎ", "みみ", "みそしる" },
             new string[] { "むり", "むすめ", "（お）むすび", "むこう", "むずかしい", "むしあつい" },
             new string[] { "め", "めし", "めん", "めがね", "めんどう", "おめでとう" },
             new string[] { "もの", "もう", "もし", "もらう", "もっと", "もてる" },
-            // や行 (Ya-row) - Contribution by Soup
+            // や行 (Ya-row) - Contribution by Soup/Yuka ゆか
             new string[] { "やる", "やさしい", "やきとり", "やすみ", "やめる", "やかましい" },
             new string[] { "ゆ", "ゆき", "ゆめ", "ゆうびん", "ゆっくり", "ゆず" },
             new string[] { "よく", "よこ", "よむ", "よる", "よろしく", "よかった" },
@@ -58,25 +60,25 @@
             new string[] { "これをください。", "すしをたべた。", "そうじをした。", "めがねをかけた。", "あいさつをした。", "ここをかたづけよう。" },
             new string[] { "みんな", "うん", "こんにちは。", "おんな", "ぜんぜん", "まんが" },
             // 濁音 (Dakuon - Voiced sounds)
-            // が行 (Ga-row)) - Contribution by Soup
+            // が行 (Ga-row)) - Contribution by Soup/Yuka ゆか
             new string[] { "これがいい。", "すみませんが", "がんばる", "がいじん", "がっかりする", "がまんする" },
             new string[] { "ぎんこう", "かぎ", "おにぎり", "ぎり", "ぎりぎり", "かぎる" },
             new string[] { "ぐあい", "ぐち", "ぐずぐず", "なぐる", "ぐうぜん", "ぐらい" },
             new string[] { "げんき", "げんかん", "げり", "げつまつ", "げんご", "げんいん" },
             new string[] { "ごはん", "ごみ", "ごちそうさま", "ございます", "ごま", "ごろ" },
-            // ざ行 (Za-row) - Contribution by Soup
+            // ざ行 (Za-row) - Contribution by Soup/Yuka ゆか
             new string[] { "ざぶとん", "ざんねん", "ざっし", "ざる", "ざしき", "うざい" },
             new string[] { "じかん", "じぶん", "じこ", "じしん", "じてんしゃ", "じこちゅう" },
             new string[] { "ずるい", "ずいぶん", "ずっと", "ずれる", "ずらす", "ずぼん" },
             new string[] { "ぜんぶ", "かぜ", "まぜる", "ぜひ", "ぜったい", "ぜんたい" },
             new string[] { "どうぞ", "ぞう", "ごぞんじ です", "ぞうり", "ぞくする", "ぞくぞく" },
-            // だ行 (Da-row) - Contribution by Soup
+            // だ行 (Da-row) - Contribution by Soup/Yuka ゆか
             new string[] { "だめ", "だから", "だんだん", "だいじょうぶ", "だいがく", "だけ" },
             new string[] { "ちぢむ", "ちぢれる", "はなぢ", "てじか", "ちかじか", "わるきえ" },
             new string[] { "かたづける", "つづける", "つづく", "つづり", "かんづめ", "きづく" },
             new string[] { "でんわ", "できる", "でんき", "でかける", "です", "でたらめ" },
             new string[] { "どれ", "どうも", "どじ", "どこ", "どうして", "どろぼう" },
-            // ば行 (Ba-row) - Contribution by Soup
+            // ば行 (Ba-row) - Contribution by Soup/Yuka ゆか
             new string[] { "ばか", "ばんざい", "ばら", "ばれる", "ばらばら", "ばかり" },
             new string[] { "びん", "びっくりする", "びっしょり", "びみょう", "びびる", "びんぼう" },
             new string[] { "あぶない", "ぶどう", "ぶた", "ぶっか", "ぶんか", "ぶしつけ" },
@@ -105,38 +107,36 @@
             new string[] { "にやんこ", "ぐにやぐにや", "こんにやく", "にやあにやあ", "ろうにゃくなんにょ", "ふにゃふにゃ" },
             new string[] { "にゅうりょく", "にゅうがく", "にゅうかい", "にゅういん", "きにゅうする", "ほにゅうるい" },
             new string[] { "にょう", "にょうけんさ", "にょうぼう", "にょうぼうもち", "にょきにょき", "にょろにょろ" },
-            // ひゃ行 (Hya-row)
-            new string[] { "ひゃ", "ひゃ", "ひゃ", "ひゃ", "ひゃ", "ひゃ" },
-            new string[] { "ひゅ", "ひゅ", "ひゅ", "ひゅ", "ひゅ", "ひゅ" },
-            new string[] { "ひょ", "ひょ", "ひょ", "ひょ", "ひょ", "ひょ" },
-            // みゃ行 (Mya-row)
-            new string[] { "みゃ", "みゃ", "みゃ", "みゃ", "みゃ", "みゃ" },
-            new string[] { "みゅ", "みゅ", "みゅ", "みゅ", "みゅ", "みゅ" },
-            new string[] { "みょ", "みょ", "みょ", "みょ", "みょ", "みょ" },
-            // りゃ行 (Rya-row)
-            new string[] { "りゃ", "りゃ", "りゃ", "りゃ", "りゃ", "りゃ" },
-            new string[] { "りゅ", "りゅ", "りゅ", "りゅ", "りゅ", "りゅ" },
-            new string[] { "りょ", "りょ", "りょ", "りょ", "りょ", "りょ" },
-            // ぎゃ行 (Gya-row)
-            new string[] { "ぎゃ", "ぎゃ", "ぎゃ", "ぎゃ", "ぎゃ", "ぎゃ" },
-            new string[] { "ぎゅ", "ぎゅ", "ぎゅ", "ぎゅ", "ぎゅ", "ぎゅ" },
-            new string[] { "ぎょ", "ぎょ", "ぎょ", "ぎょ", "ぎょ", "ぎょ" },
-            // じゃ行 (Ja-row)
-            new string[] { "じゃ", "じゃ", "じゃ", "じゃ", "じゃ", "じゃ" },
-            new string[] { "じゅ", "じゅ", "じゅ", "じゅ", "じゅ", "じゅ" },
-            new string[] { "じょ", "じょ", "じょ", "じょ", "じょ", "じょ" },
-            // ぢゃ行 (Dja-row)
-            new string[] { "ぢゃ", "ぢゃ", "ぢゃ", "ぢゃ", "ぢゃ", "ぢゃ" },
-            new string[] { "ぢゅ", "ぢゅ", "ぢゅ", "ぢゅ", "ぢゅ", "ぢゅ" },
-            new string[] { "ぢょ", "ぢょ", "ぢょ", "ぢょ", "ぢょ", "ぢょ" },
-            // びゃ行 (Bya-row)
-            new string[] { "びゃ", "びゃ", "びゃ", "びゃ", "びゃ", "びゃ" },
-            new string[] { "びゅ", "びゅ", "びゅ", "びゅ", "びゅ", "びゅ" },
-            new string[] { "びょ", "びょ", "びょ", "びょ", "びょ", "びょ" },
-            // ぴゃ行 (Pya-row)
-            new string[] { "ぴゃ", "ぴゃ", "ぴゃ", "ぴゃ", "ぴゃ", "ぴゃ" },
-            new string[] { "ぴゅ", "ぴゅ", "ぴゅ", "ぴゅ", "ぴゅ", "ぴゅ" },
-            new string[] { "ぴょ", "ぴょ", "ぴょ", "ぴょ", "ぴょ", "ぴょ" },
+            // ひゃ行 (Hya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "ひゃく", "ひゃくさい", "ひゃくねん", "にひゃくえん", "ひゃっかてん", "ひゃっかじてん" },
+            new string[] { "ひゅうひゅう" },
+            new string[] { "ひょうか", "ひょうばん", "ひょう", "よていひょう", "ひょうきん", "ひょろひょろ" },
+            // みゃ行 (Mya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "まいく", "じんみゃく", "さんみゃく", "みゃくみゃく", "ぶんみゃく", "どうみゃく" },
+            new string[] { "みゅうじん", "みゅうと", "みゅうじかる", "みゅうじあむ", "みゅうがく" },
+            new string[] { "みょうにち", "みょうちょう", "みょうごにち", "みょうじ", "みょう", "じゅみょう" },
+            // りゃ行 (Rya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "りゃく", "りゃくご", "りゃくじ", "りゃくれき", "しょうりゃく", "ぜんりゃく" },
+            new string[] { "りゅうがく", "りゅうがくせい", "りゅうこう", "しゅりゅう", "じこりゅう", "にほんりゅう" },
+            new string[] { "りょこう", "りょうり", "りょうしん", "りょかん", "しりょう", "りょう" },
+            // ぎゃ行 (Gya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "ぎゃく", "ぎゃくたい", "ぎゃくせつ", "ぎゃくてん", "ぎゃっこう", "ぎゃっきょう" },
+            new string[] { "ぎゅうにゅう", "ぎゅうにく", "ぎゅうぎゅう", "ぎゅっと", "ぎゅうどん", "ぎゅうじる" },
+            new string[] { "ぎょうぎ", "ぎょうじ", "ぎょう", "ぎょうかい", "ぎょぎょう", "きんぎょ" },
+            // じゃ行 (Ja-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "じゃあ", "じゃま", "じゃあまた", "じゃない", "じゃんけん", "じゃんじゃん" },
+            new string[] { "じゅぎょう", "じゅうしょ", "じゅう", "じゅんばん", "じゅうよう", "きょうじゅ" },
+            new string[] { "じょうず", "じょせい", "じょうだん", "じょしゅ", "じょゆう", "じょじょに" },
+            // ぢゃ行 (Dja-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "ゆのみぢゃわん", "すもうぢゃや", "ぢゃぐち", "ぢゃま", "ぢゃり", "ぢゃんぷ" },
+            // びゃ行 (Bya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "さんびゃく", "なんびゃくえん" },
+            new string[] { "びゅうびゅう" },
+            new string[] { "びょうき", "びょういん" },
+            // ぴゃ行 (Pya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "ろっぴゃく", "はっぴゃく", "うそはっぴゃく" },
+            new string[] { "ぴゅうぴゅう" },
+            new string[] { "はっぴょう", "でんぴょう" },
             
             // Katakana
             // ア行 (A-row)
@@ -397,7 +397,7 @@
             new string[] { "kyaku", "okyaku san", "kyakushitsu", "shōkyaku", "shikkyaku", "kyakkanteki" },
             new string[] { "kyū", "kyūkei", "kenkyū", "kyūkyūsha", "kyūri", "kyūshoku" },
             new string[] { "kyō", "kyonen", "kyōshitsu", "senkyo", "kyori", "kyōmi" },
-            // しゃ行 (Sha-row) - Contribution by Nerazawa
+            // しゃ行 (Sha-row) - Contribution by nerazawa
             new string[] { "shashin", "shaberu", "shakai", "shain", "shabushabu", "isha" },
             new string[] { "shumi", "shukudai", "shujin", "shurui", "shū", "shucchō" },
             new string[] { "shōyu", "shōkai", "shō ga nai", "deshō", "shimashō", "shōgakkō" },
@@ -409,38 +409,36 @@
             new string[] { "nyanko", "gunyagunya", "konnyaku", "nyānyā", "rōnyakunannyo", "funyafunya" },
             new string[] { "nyūryoku", "nyūgaku", "nyūkai", "nyūin", "kinyū suru", "honyūrui" },
             new string[] { "nyō", "nyōkensa", "nyōbō", "nyōbōmochi", "nyokinyoki", "nyoronyoro" },
-            // ひゃ行 (Hya-row)
-            new string[] { "hya", "hya", "hya", "hya", "hya", "hya" },
-            new string[] { "hyu", "hyu", "hyu", "hyu", "hyu", "hyu" },
-            new string[] { "hyo", "hyo", "hyo", "hyo", "hyo", "hyo" },
-            // みゃ行 (Mya-row)
-            new string[] { "mya", "mya", "mya", "mya", "mya", "mya" },
-            new string[] { "myu", "myu", "myu", "myu", "myu", "myu" },
-            new string[] { "myo", "myo", "myo", "myo", "myo", "myo" },
-            // りゃ行 (Rya-row)
-            new string[] { "rya", "rya", "rya", "rya", "rya", "rya" },
-            new string[] { "ryu", "ryu", "ryu", "ryu", "ryu", "ryu" },
-            new string[] { "ryo", "ryo", "ryo", "ryo", "ryo", "ryo" },
-            // ぎゃ行 (Gya-row)
-            new string[] { "gya", "gya", "gya", "gya", "gya", "gya" },
-            new string[] { "gyu", "gyu", "gyu", "gyu", "gyu", "gyu" },
-            new string[] { "gyo", "gyo", "gyo", "gyo", "gyo", "gyo" },
-            // じゃ行 (Ja-row)
-            new string[] { "ja", "ja", "ja", "ja", "ja", "ja" },
-            new string[] { "ju", "ju", "ju", "ju", "ju", "ju" },
-            new string[] { "jo", "jo", "jo", "jo", "jo", "jo" },
-            // ぢゃ行 (Dja-row)
-            new string[] { "ja", "ja", "ja", "ja", "ja", "ja" },
-            new string[] { "ju", "ju", "ju", "ju", "ju", "ju" },
-            new string[] { "jo", "jo", "jo", "jo", "jo", "jo" },
-            // びゃ行 (Bya-row)
-            new string[] { "bya", "bya", "bya", "bya", "bya", "bya" },
-            new string[] { "byu", "byu", "byu", "byu", "byu", "byu" },
-            new string[] { "byo", "byo", "byo", "byo", "byo", "byo" },
-            // ぴゃ行 (Pya-row)
-            new string[] { "pya", "pya", "pya", "pya", "pya", "pya" },
-            new string[] { "pyu", "pyu", "pyu", "pyu", "pyu", "pyu" },
-            new string[] { "pyo", "pyo", "pyo", "pyo", "pyo", "pyo" },
+            // ひゃ行 (Hya-row) - Contribution by Soup
+            new string[] { "hyaku", "hyakusai", "hyakunen", "nihyakuen", "hyakkaten", "hyakkajiten" },
+            new string[] { "hyūhyū" },
+            new string[] { "hyōka", "hyōban", "hyō", "yoteihyō", "hyōkin", "hyorohyoro" },
+            // みゃ行 (Mya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "mayku", "jinmyaku", "sanmyaku", "myakumyaku", "bunmyaku", "dōmyaku" },
+            new string[] { "myūjin", "myūgaku" },
+            new string[] { "myōnichi", "myōchō", "myōgonichi", "myōji", "myō", "jumyō" },
+            // りゃ行 (Rya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "ryaku", "ryakugo", "ryakuji", "ryakureki", "shōryaku", "zenryaku" },
+            new string[] { "ryūgaku", "ryūgakusei", "ryūko", "shuryū", "jikoryū", "nihonryū" },
+            new string[] { "ryokō", "ryōri", "ryōshin", "ryokan", "shiryō", "ryō" },
+            // ぎゃ行 (Gya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "gyaku", "gyakutai", "gyakusetsu", "gyakuten", "gyakkō", "gyakkyō" },
+            new string[] { "gyūnyū", "gyūniku", "gyūgyū", "gyutto", "gyūdon", "gyūjiru" },
+            new string[] { "gyōgi", "gyōji", "gyō", "gyōkai", "gyogyō", "kingyo" },
+            // じゃ行 (Ja-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "jā", "jama", "jā mata", "ja nai", "janken", "janjan" },
+            new string[] { "jugyō", "jyūsho", "jū", "junban", "jūyō", "kyōju" },
+            new string[] { "jōzu", "josei", "jōdan", "joshu", "joyū", "jojo ni" },
+            // ぢゃ行 (Dja-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "yunomi-jawan", "sumō-jaya", "jaguchi", "jama", "jari", "janpu" },
+            // びゃ行 (Bya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "sanbyaku", "nan byaku en" },
+            new string[] { "byūbyū" },
+            new string[] { "byōki", "byōin" },
+            // ぴゃ行 (Pya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "roppyaku", "happyaku", "uso-happyaku" },
+            new string[] { "pyūpyū" },
+            new string[] { "happyō", "denpyō" },
             
             // Katakana
             // ア行 (A-row)
@@ -713,39 +711,36 @@
             new string[] { "kitty cat", "flabby; limp", "konjaku (jelly made from a vegetable)", "meow", "men and women of all ages", "limp; soft" },
             new string[] { "input; data entry", "entry to school", "joining (a group)", "hospitalization", "fill in forms", "mammal" },
             new string[] { "urine", "urinary test, urine examination", "wife; my wife", "married man", "[tree, plant] shooting up one after another", "wriggling; slithering" },
-            // ひゃ行 (Hya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // みゃ行 (Mya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // りゃ行 (Rya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ぎゃ行 (Gya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // じゃ行 (Ja-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ぢゃ行 (Dja-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // びゃ行 (Bya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ぴゃ行 (Pya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            // ひゃ行 (Hya-row) - Contribution by Soup
+            new string[] { "hundred", "hundred years old", "hundred years", "two hundred yen", "department store", "encyclopedia" },
+            new string[] { "whistling sound; sound of wind" },
+            new string[] { "evaluation; assess", "reputation; fame; popularity", "chart", "schedule, itinerary", "facetious, funny", "frail; lanky" },
+            // みゃ行 (Mya-row) - Contribution by Soup/Yuka ゆか & Reava_
+            new string[] { "pulse", "personal connection", "mountain range", "continuous, unbroken", "context", "[medical term] artery" },
+            new string[] { "civilian (non-military person)", "music theory" },
+            new string[] { "tomorrow", "tomorrow morning", "day after tomorrow", "surname", "strange", "life span" },
+            // りゃ行 (Rya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "abberviation", "acronym; abbreviation", "simplified character", "breif personal record", "omission; abbreviation", "salutation of brief letter (lit. 'first part omitted')" },
+            new string[] { "studying abroad", "international exchange student", "fashion; fad", "mainstream", "self-taught manner", "japanese style" },
+            new string[] { "travel; trip", "cooking; cuisine", "both parents", "japanese inn", "document; materials; data", "dormitory" },
+            // ぎゃ行 (Gya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "reverse; opposite", "abuse, ill-treatment", "paradox", "turn-around; reversal", "go backward; backlighting", "adversity" },
+            new string[] { "milk", "beef", "packing tight; creaking", "tightly; hard (e.g., a grab)", "rice dish with beef", "control; have under one's thumb" },
+            new string[] { "manner; behavior", "event, function", "line, row", "industry, business", "fishing industry", "goldfish" },
+            // じゃ行 (Ja-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "then; well [combination of de and wa]", "nuisance; bother", "see you", "(it) is not", "rock, paper, scissors game", "something happening nonstop" },
+            new string[] { "school time; class time", "address", "ten", "order of things; turn (in line)", "important; principal", "professor" },
+            new string[] { "skillful; skilled", "woman; female", "joke", "assistant", "actress", "gradually, little by little" },
+            // ぢゃ行 (Dja-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "(japanese) tea cup", "ticket agent for sumō", "faucet, tap", "hindrance, nuisance", "gravel", "jump" },
+            // びゃ行 (Bya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "three hundred", "how many hundred yen" },
+            new string[] { "Howl (sound of wind)" },
+            new string[] { "sick; sickness", "hospital" },
+            // ぴゃ行 (Pya-row) - Contribution by Soup/Yuka ゆか
+            new string[] { "six hundred", "eight hundred", "all sorts of lies; tissue of lies" },
+            new string[] { "sound of whistling" },
+            new string[] { "announcement, presentation", "sales slip, voucher" },
     
             // Katakana
             // ア行 (A-row)
@@ -911,3 +906,5 @@
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" }
         };
+
+        #endregion
