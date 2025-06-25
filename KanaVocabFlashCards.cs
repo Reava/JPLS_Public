@@ -749,164 +749,164 @@
             new string[] { "announcement, presentation", "sales slip, voucher" },
     
             // Katakana
-            // ア行 (A-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // カ行 (Ka-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // サ行 (Sa-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // タ行 (Ta-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ナ行 (Na-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ハ行 (Ha-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // マ行 (Ma-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ヤ行 (Ya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ラ行 (Ra-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ワ行 (Wa-row)
-            new string[] { "", "", "", "", "", "" },
+            // ア行 (A-row) - Contribution by Object777
+            new string[] { "America; U.S.A", "animation; cartoon", "access", "address", "ice cream", "apartment" },
+            new string[] { "internet", "event", "image", "India", "Italian", "good-looking man; cool guy" },
+            new string[] { "wool", "virus", "woman", "west", "whisky", "wink" },
+            new string[] { "air conditioner", "energy", "ecology", "elite", "error", "Excel" },
+            new string[] { "open", "orange", "oil", "online", "oven", "Australia" },
+            // カ行 (Ka-row) - Contribution by Object777
+            new string[] { "card", "color", "calorie", "café", "curry", "car navigation system" },
+            new string[] { "kitchen", "keyboard", "kiss", "kids", "Christ", "key word" },
+            new string[] { "club", "air conditioner", "cookie", "cool", "claim", "Christmas" },
+            new string[] { "cell phone", "cake", "case", "ketchup", "market", "skate" },
+            new string[] { "coffee", "cost", "comic book", "convenience store", "cup, glass, tumbler", "community" },
+            // サ行 (Sa-row) - Contribution by Object777
+            new string[] { "service", "salad", "site; website", "sandwich", "soccer", "sunglasses" },
+            new string[] { "system", "simple", "seat", "series", "season", "single" },
+            new string[] { "sport", "style", "stop", "start", "strawberry", "spice" },
+            new string[] { "(shopping, medical) center", "sale", "sense", "sweater", "seminar", "wealthy socialite" },
+            new string[] { "sauce (Worcestershire sauce)", "soft, software", "song", "socks", "Soul (soul music)", "sofa" },
+            // タ行 (Ta-row) - Contribution by Object777
+            new string[] { "taxi", "time", "towel", "Thailand, necktie", "tower", "timing" },
+            new string[] { "chicken", "cheese", "team", "ticket", "(potato) chip", "Chile" },
+            new string[] { "tour", "tree", "tuna", "tool", "bed sheets", "sweets; dessert" },
+            new string[] { "TV; television", "table", "tennis", "test", "theme", "terrorism" },
+            new string[] { "toast", "tomato", "top", "trend", "total", "training" },
+            // ナ行 (Na-row) - Contribution by Object777
+            new string[] { "number", "nice", "night", "knife", "napkin", "navigation" },
+            new string[] { "need", "knit", "NEET (young people Not in Education, Employment or Training)", "monitor", "sneakers", "vanilla" },
+            new string[] { "noodle", "nude", "canoe", "Seine (river)", "Cezanne", "Sorbonne" },
+            new string[] { "net, Internet", "name", "necktie", "neck, obstacle", "negative", "necklace" },
+            new string[] { "note", "sugarless", "laptop computer", "non-stop", "Norway", "alcohol-free" },
+            // ハ行 (Ha-row) - Contribution by Object777
+            new string[] { "high technology", "government employment agency", "heart", "handkerchief", "Hawaii", "Harvard Univ." },
+            new string[] { "hit", "heat", "hint", "heel", "hero", "Himalaya" },
+            new string[] { "fruit", "young people subsisting on part-time work", "French fries", "France", "flash", "food" },
+            new string[] { "healthy", "hair", "hair style", "help", "helicopter", "helmet" },
+            new string[] { "homepage", "hotel", "hot", "hall", "holiday", "Hong Kong" },
+            // マ行 (Ma-row) - Contribution by Object777
+            new string[] { "'large' apartment; modern apartment house", "mayonnaise", "media", "manner", "one-on-one", "marketing" },
+            new string[] { "mistake", "mix", "meeting", "milk", "mini", "meat ball" },
+            new string[] { "game", "movie", "mood", "ham", "dome", "mouse" },
+            new string[] { "email; text message", "menu", "member", "memory card", "memo", "men's; menswear" },
+            new string[] { "model", "mall", "modern", "monorail", "monster", "Mongolia" },
+            // ヤ行 (Ya-row) - Contribution by Object777
+            new string[] { "young", "Japanese punk", "earring", "diamond", "tire", "taxi; limo" },
+            new string[] { "user", "unique", "humor", "Euro (currency)", "Jewish", "Yugoslavia" },
+            new string[] { "Europe", "yogurt", "yacht", "yoyo", "Jordan", "crayon" },
+            // ラ行 (Ra-row) - Contribution by Object777
+            new string[] { "lunch", "ramen", "love", "light", "ranking", "live performance" },
+            new string[] { "recycle", "restructuring; downsizing", "lead", "living", "resort", "league" },
+            new string[] { "rule", "report", "root", "route", "school", "beer" },
+            new string[] { "restaurant", "receipt", "lesson", "recipe", "lettuce", "laser" },
+            new string[] { "login", "locker", "robot", "loan", "London", "Russia" },
+            // ワ行 (Wa-row) - Contribution by Object777
+            new string[] { "wine", "world", "dress shirt", "vaccine", "1-Seg (digital broadcasting service for mobile devices)", "word" },
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
             // 濁音 (Dakuon - Voiced sounds)
-            // ガ行 (Ga-row)
+            // ガ行 (Ga-row) - Contribution by Object777
+            new string[] { "guide", "gas", "gasoline", "glass; pane", "gardening", "garage" },
+            new string[] { "gift", "guitar", "Greece", "gear", "Guinness Book of Records", "ideology" },
+            new string[] { "gourmet", "green", "goods", "Guam", "(sports) playing field", "Mother Goose" },
+            new string[] { "game", "guest", "game center", "gate", "gay", "collagen" },
+            new string[] { "goal", "rubber", "Godzilla", "Golden Week (early May holiday season)", "(Okinawan) bitter melon", "Chicago" },
+            // ザ行 (Za-row) - Contribution by Object777
+            new string[] { "pizza", "leather", "Elizabeth", "Gaza Strip", "laser", "mother" },
+            new string[] { "jeans", "gym", "gin", "digital", "music", "chimpanzee" },
+            new string[] { "trousers", "zoom", "puzzle", "rose", "zucchini", "shoes" },
+            new string[] { "zero", "seminar", "general contractor", "rose wine", "gelatin", "number worn by athletes" },
+            new string[] { "zone", "Arizona", "Amazon", "exotic", "zombie", "ozone" },
+            // ダ行 (Da-row) - Contribution by Object777
+            new string[] { "dance", "diet", "tick; mite", "download", "double", "diving" },
+            new string[] { "data", "department store", "design", "date", "dessert", "digital camera" },
+            new string[] { "door", "drama", "(salad) dressing", "drug store", "dotcom", "hard" },
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ザ行 (Za-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ダ行 (Da-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // バ行 (Ba-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // パ行 (Pa-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            // バ行 (Ba-row) - Contribution by Object777
+            new string[] { "bus; bath", "bag", "bar", "banana", "motorcycle", "birthday" },
+            new string[] { "plastic; vinyl", "business", "vitamin", "video", "building", "visa" },
+            new string[] { "brand", "boom", "broccoli", "blueberry", "bra", "swing" },
+            new string[] { "best; vest", "bed", "belt", "balcony", "person with a lot of experience", "stroller" },
+            new string[] { "ball", "bottle", "boat", "boss", "volunteer", "button" },
+            // パ行 (Pa-row) - Contribution by Object777
+            new string[] { "bread", "personal computer", "passport", "part-time", "PowerPoint", "Paris" },
+            new string[] { "focus point", "piano", "pink", "earrings for pierced ears", "green pepper", "pitcher" },
+            new string[] { "present", "professional", "program", "printer", "profile", "private" },
+            new string[] { "pet", "pen", "page", "paint", "Peru", "pepper" },
+            new string[] { "point", "post; mailbox", "poster", "pocket", "hot water machine; pot", "pop music; popular" },
             // 拗音 (Youon - Contracted sounds)
-            // キャ行 (Kya-row)
+            // キャ行 (Kya-row) - Contribution by Object777
+            new string[] { "career", "cabbage", "character", "cashing, take out small loans", "captain", "catcher" },
+            new string[] { "BBQ", "security", "Cuba", "cute", "Thank you", "rescue" },
             new string[] { "", "", "", "", "", "" },
+            // シャ行 (Sha-row) - Contribution by Object777
+            new string[] { "shirt", "shampoo", "shower", "champagne", "shy", "musician" },
+            new string[] { "sugar", "cream puffs", "shoot", "push", "Chinese dumpling", "mushroom" },
+            new string[] { "chef", "(milk) shake", "share", "(electric) shaver", "Shakespeare", "sherry" },
+            new string[] { "shop", "show", "shopping", "shock", "shoulder bag", "cushion" },
+            // チャ行 (Cha-row) - Contribution by Object777
+            new string[] { "channel", "chance", "champion", "chapel", "child", "charming" },
+            new string[] { "tulip", "chewing gum", "tuner", "tube", "stew", "student" },
+            new string[] { "check in", "chain", "cherry", "change", "chess", "check; plaid" },
+            new string[] { "chocolate", "choice", "chalk", "question", "chop", "place mat" },
+            // ニャ行 (Nya-row) - Contribution by Object777
+            new string[] { "cognac", "kitty cat", "jelly made of a root vegetable", "Catalonia", "Bologna", "bagna cauda (Italian sauce)" },
+            new string[] { "news", "New York", "new", "new town", "New Zealand", "nuance" },
+            new string[] { "El Niño", "gnocci", "mushroom (French)", "jalapeño pepper", "Avignon", "nuoc mam (Vietnamese fish sauce)" },
+            // ヒャ行 (Hya-row) - Contribution by Object777
             new string[] { "", "", "", "", "", "" },
+            new string[] { "human", "hues", "humanism", "perfume", "Houston", "Lake Huron" },
             new string[] { "", "", "", "", "", "" },
-            // シャ行 (Sha-row)
+            // ミャ行 (Mya-row) - Contribution by Object777
             new string[] { "", "", "", "", "", "" },
+            new string[] { "museum", "musical", "Munich", "Bermuda", "Samuel", "amusement" },
             new string[] { "", "", "", "", "", "" },
+            // リャ行 (Rya-row) - Contribution by Object777
+            new string[] { "Castille (Spain)", "kaoliang (plant)", "paella (Spanish rice dish)", "", "", "" },
+            new string[] { "rucksack; backpack", "rheumatism", "revolution", "volume", "solution", "screw" },
+            new string[] { "matryoshka (Russian nesting doll)", "", "", "", "", "" },
+            // ギャ行 (Gya-row) - Contribution by Object777
+            new string[] { "girl; gal", "gamble", "prank; joke", "gang", "gallery", "pay for performance" },
+            new string[] { "regular", "figure", "figure skating", "irregular", "regulator", "" },
+            new string[] { "Japanese/Chinese dumpling", "", "", "", "", "" },
+            // ジャ行 (Ja-row) - Contribution by Object777
+            new string[] { "jam", "jacket", "jazz", "genre", "journal", "jump" },
+            new string[] { "junior", "juice", "jewelry", "Geneva", "collage", "rouge; lipstick" },
+            new string[] { "jet", "jelly, Jerry", "jealousy", "gesture", "item of artwork", "James" },
+            new string[] { "joke", "jogging", "beer mug", "", "", "" },
+            // ビャ行 (Bya-row) - Contribution by Object777
             new string[] { "", "", "", "", "", "" },
+            new string[] { "beauty", "interview", "buffet", "eyelash curler", "review", "debut" },
             new string[] { "", "", "", "", "", "" },
-            // チャ行 (Cha-row)
+            // ピャ行 (Pya-row) - Contribution by Object777
             new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ニャ行 (Nya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ヒャ行 (Hya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ミャ行 (Mya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // リャ行 (Rya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ギャ行 (Gya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ジャ行 (Ja-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ビャ行 (Bya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ピャ行 (Pya-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            new string[] { "popular", "pure", "puma", "Pulitzer Prize", "puree", "" },
+            new string[] { "Pyongyang", "Peter (Russian)", "", "", "", "" },
             // 外来音 (Gairaigo - Loan/foreign sounds)
-            // ティ・トゥ行 (Ti/Tu-row)
+            // ティ・トゥ行 (Ti/Tu-row) - Contribution by Object777
+            new string[] { "tea", "party", "tissue", "identity", "pastry chef", "variety" },
+            new string[] { "tuba", "institute", "tuition", "", "", "" },
+            // ディ・ドゥ行 (Di/Du-row) - Contribution by Object777
+            new string[] { "dinner", "deep", "melody", "parody", "director", "disk" },
+            new string[] { "dual", "education", "fondue", "duet", "producer", "duo" },
+            // ファ行 (Fa-row) - Contribution by Object777
+            new string[] { "family", "fashion", "fax", "fight", "", "" },
+            new string[] { "fish", "film", "feet", "fiction", "", "" },
+            new string[] { "manifesto; political pledge", "feminine", "fence", "fair play", "", "" },
+            new string[] { "folk; fork", "form", "forum", "foie gras", "", "" },
             new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ディ・ドゥ行 (Di/Du-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ファ行 (Fa-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ツァ行 (Tsa-row)
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
-            // ウィ行 (Wi-row)
+            // ツァ行 (Tsa-row) - Contribution by Object777
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
-            // ヴァ行 (Va-row)
-            new string[] { "", "", "", "", "", "" },
+            // ウィ行 (Wi-row) - Contribution by Object777
+            new string[] { "week", "window", "wig", "vienna sausage", "sandwich", "Halloween" },
+            new string[] { "welcome", "Kuwait", "wedding", "Wednesday", "", "" },
+            new string[] { "walking", "Wall Street", "warm up", "water", "", "" },
+            // ヴァ行 (Va-row) - Contribution by Object777
+            new string[] { "violin", "variation", "virgin", "violet", "Vivaldi", "vacation" },
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
