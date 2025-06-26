@@ -1,0 +1,15 @@
+# v60 06/24/2025 15:00 JST
+- New vocab
+- Fix doubled Videoplayer Audiosources
+- Improved Videoplayer Audio Spacialization
+- Fix mesh holes
+- Added more support beams
+- Potential fix for some weird normals
+- Added basic light probes and occlusion data
+- Improve lighting quality
+- Fix futon light bake errors
+- Added Night Mode Toggle
+- Made the world a tad brighter
+- Made the light volume a little darker outside to offset other changes
+
+- *Temporarily removed 2D / 3D audio mode toggle, gotta make a script for that bc i want to make one that'll go in UwUtils*
