@@ -141,12 +141,12 @@
             new string[] { "はっぴょう", "でんぴょう" },
             
             // Katakana
-            // ア行 (A-row)
-            new string[] { "ア", "ア", "ア", "ア", "ア", "ア" },
-            new string[] { "イ", "イ", "イ", "イ", "イ", "イ" },
-            new string[] { "ウ", "ウ", "ウ", "ウ", "ウ", "ウ" },
-            new string[] { "エ", "エ", "エ", "エ", "エ", "エ" },
-            new string[] { "オ", "オ", "オ", "オ", "オ", "オ" },
+            // ア行 (A-row) - Contribution by Object777
+            new string[] { "アメリカ", "アニメ", "アクセス", "アドレス", "アイスクリーム", "アパート" },
+            new string[] { "インターネット", "イベント", "イメージ", "インド", "イタリアン", "イケメン" },
+            new string[] { "ウール", "ウイルス", "ウーマン", "ウエスト", "ウイスキー", "ウインク" },
+            new string[] { "エアコン", "エネルギー", "エコ", "エリート", "エラー", "エクセル" },
+            new string[] { "オープン", "オレンジ", "オイル", "オンライン", "オーブン", "オーストラリア" },
             // カ行 (Ka-row)
             new string[] { "カ", "カ", "カ", "カ", "カ", "カ" },
             new string[] { "キ", "キ", "キ", "キ", "キ", "キ" },
@@ -445,12 +445,12 @@
             new string[] { "happyō", "denpyō" },
             
             // Katakana
-            // ア行 (A-row)
-            new string[] { "a", "a", "a", "a", "a", "a" },
-            new string[] { "i", "i", "i", "i", "i", "i" },
-            new string[] { "u", "u", "u", "u", "u", "u" },
-            new string[] { "e", "e", "e", "e", "e", "e" },
-            new string[] { "o", "o", "o", "o", "o", "o" },
+            // ア行 (A-row) - Contribution by Object777
+            new string[] { "amerika", "anime", "akusesu", "adoresu", "aisukurīmu", "apāto" },
+            new string[] { "intānetto", "ibento", "imēji", "indo", "itarian", "ikemen" },
+            new string[] { "ūru", "uirusu", "ūman", "uesuto", "uisukī", "uinku" },
+            new string[] { "eakon", "enerugī", "eko", "erīto", "erā", "ekuseru" },
+            new string[] { "ōpun", "orenji", "oiru", "onrain", "ōbun", "ōsutoraria" },
             // カ行 (Ka-row)
             new string[] { "ka", "ka", "ka", "ka", "ka", "ka" },
             new string[] { "ki", "ki", "ki", "ki", "ki", "ki" },
