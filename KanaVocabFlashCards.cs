@@ -109,11 +109,11 @@
             new string[] { "にょう", "にょうけんさ", "にょうぼう", "にょうぼうもち", "にょきにょき", "にょろにょろ" },
             // ひゃ行 (Hya-row) - Contribution by Soup/Yuka ゆか
             new string[] { "ひゃく", "ひゃくさい", "ひゃくねん", "にひゃくえん", "ひゃっかてん", "ひゃっかじてん" },
-            new string[] { "ひゅうひゅう", "", "", "", "", "" },
+            new string[] { "ひゅうひゅう", "", "", "", "", "" }, // NO FILL
             new string[] { "ひょうか", "ひょうばん", "ひょう", "よていひょう", "ひょうきん", "ひょろひょろ" },
             // みゃ行 (Mya-row) - Contribution by Soup/Yuka ゆか
             new string[] { "まいく", "じんみゃく", "さんみゃく", "みゃくみゃく", "ぶんみゃく", "どうみゃく" },
-            new string[] { "みゅうじん", "みゅうと", "みゅうじかる", "みゅうじあむ", "みゅうがく" },
+            new string[] { "みゅうじん", "みゅうと", "みゅうじかる", "みゅうじあむ", "みゅうがく", "" }, // NO FILL
             new string[] { "みょうにち", "みょうちょう", "みょうごにち", "みょうじ", "みょう", "じゅみょう" },
             // りゃ行 (Rya-row) - Contribution by Soup/Yuka ゆか
             new string[] { "りゃく", "りゃくご", "りゃくじ", "りゃくれき", "しょうりゃく", "ぜんりゃく" },
@@ -129,16 +129,16 @@
             new string[] { "じょうず", "じょせい", "じょうだん", "じょしゅ", "じょゆう", "じょじょに" },
             // ぢゃ行 (Dja-row) - Contribution by Soup/Yuka ゆか
             new string[] { "ゆのみぢゃわん", "すもうぢゃや", "ぢゃぐち", "ぢゃま", "ぢゃり", "ぢゃんぷ" },
-            new string[] { "*", "", "", "", "", "" },
-            new string[] { "*", "", "", "", "", "" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             // びゃ行 (Bya-row) - Contribution by Soup/Yuka ゆか
-            new string[] { "さんびゃく", "なんびゃくえん", "", "", "", "" },
-            new string[] { "びゅうびゅう", "", "", "", "", "" },
-            new string[] { "びょうき", "びょういん", "", "", "", "" },
+            new string[] { "さんびゃく", "なんびゃくえん", "", "", "", "" }, // NO FILL
+            new string[] { "びゅうびゅう", "", "", "", "", "" }, // NO FILL
+            new string[] { "びょうき", "びょういん", "", "", "", "" }, // NO FILL
             // ぴゃ行 (Pya-row) - Contribution by Soup/Yuka ゆか
-            new string[] { "ろっぴゃく", "はっぴゃく", "うそはっぴゃく", "", "", "" },
-            new string[] { "ぴゅうぴゅう", "", "", "", "", "" },
-            new string[] { "はっぴょう", "でんぴょう", "", "", "", "" },
+            new string[] { "ろっぴゃく", "はっぴゃく", "うそはっぴゃく", "", "", "" }, // NO FILL
+            new string[] { "ぴゅうぴゅう", "", "", "", "", "" }, // NO FILL
+            new string[] { "はっぴょう", "でんぴょう", "", "", "", "" }, // NO FILL
             
             // Katakana
             // ア行 (A-row) - Contribution by Object777
@@ -195,7 +195,7 @@
             new string[] { "ロ", "ロ", "ロ", "ロ", "ロ", "ロ" },
             // ワ行 (Wa-row)
             new string[] { "ワ", "ワ", "ワ", "ワ", "ワ", "ワ" },
-            new string[] { "ヲ", "ヲ", "ヲ", "ヲ", "ヲ", "ヲ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             new string[] { "ン", "ン", "ン", "ン", "ン", "ン" },
             // 濁音 (Dakuon - Voiced sounds)
             // ガ行 (Ga-row)
@@ -212,8 +212,8 @@
             new string[] { "ゾ", "ゾ", "ゾ", "ゾ", "ゾ", "ゾ" },
             // ダ行 (Da-row)
             new string[] { "ダ", "ダ", "ダ", "ダ", "ダ", "ダ" },
-            new string[] { "ヂ", "ヂ", "ヂ", "ヂ", "ヂ", "ヂ" },
-            new string[] { "ヅ", "ヅ", "ヅ", "ヅ", "ヅ", "ヅ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             new string[] { "デ", "デ", "デ", "デ", "デ", "デ" },
             new string[] { "ド", "ド", "ド", "ド", "ド", "ド" },
             // バ行 (Ba-row)
@@ -232,7 +232,7 @@
             // キャ行 (Kya-row)
             new string[] { "キャ", "キャ", "キャ", "キャ", "キャ", "キャ" },
             new string[] { "キュ", "キュ", "キュ", "キュ", "キュ", "キュ" },
-            new string[] { "キョ", "キョ", "キョ", "キョ", "キョ", "キョ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             // シャ行 (Sha-row)
             new string[] { "シャ", "シャ", "シャ", "シャ", "シャ", "シャ" },
             new string[] { "シュ", "シュ", "シュ", "シュ", "シュ", "シュ" },
@@ -248,61 +248,61 @@
             new string[] { "ニュ", "ニュ", "ニュ", "ニュ", "ニュ", "ニュ" },
             new string[] { "ニョ", "ニョ", "ニョ", "ニョ", "ニョ", "ニョ" },
             // ヒャ行 (Hya-row)
-            new string[] { "ヒャ", "ヒャ", "ヒャ", "ヒャ", "ヒャ", "ヒャ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             new string[] { "ヒュ", "ヒュ", "ヒュ", "ヒュ", "ヒュ", "ヒュ" },
-            new string[] { "ヒョ", "ヒョ", "ヒョ", "ヒョ", "ヒョ", "ヒョ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             // ミャ行 (Mya-row)
-            new string[] { "ミャ", "ミャ", "ミャ", "ミャ", "ミャ", "ミャ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             new string[] { "ミュ", "ミュ", "ミュ", "ミュ", "ミュ", "ミュ" },
-            new string[] { "ミョ", "ミョ", "ミョ", "ミョ", "ミョ", "ミョ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             // リャ行 (Rya-row)
-            new string[] { "リャ", "リャ", "リャ", "リャ", "リャ", "リャ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             new string[] { "リュ", "リュ", "リュ", "リュ", "リュ", "リュ" },
-            new string[] { "リョ", "リョ", "リョ", "リョ", "リョ", "リョ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             // ギャ行 (Gya-row)
             new string[] { "ギャ", "ギャ", "ギャ", "ギャ", "ギャ", "ギャ" },
-            new string[] { "ギュ", "ギュ", "ギュ", "ギュ", "ギュ", "ギュ" },
-            new string[] { "ギョ", "ギョ", "ギョ", "ギョ", "ギョ", "ギョ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             // ジャ行 (Ja-row)
             new string[] { "ジャ", "ジャ", "ジャ", "ジャ", "ジャ", "ジャ" },
             new string[] { "ジュ", "ジュ", "ジュ", "ジュ", "ジュ", "ジュ" },
             new string[] { "ジェ", "ジェ", "ジェ", "ジェ", "ジェ", "ジェ" },
-            new string[] { "ジョ", "ジョ", "ジョ", "ジョ", "ジョ", "ジョ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             // ビャ行 (Bya-row)
-            new string[] { "ビャ", "ビャ", "ビャ", "ビャ", "ビャ", "ビャ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             new string[] { "ビュ", "ビュ", "ビュ", "ビュ", "ビュ", "ビュ" },
-            new string[] { "ビョ", "ビョ", "ビョ", "ビョ", "ビョ", "ビョ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             // ピャ行 (Pya-row)
-            new string[] { "ピャ", "ピャ", "ピャ", "ピャ", "ピャ", "ピャ" },
-            new string[] { "ピュ", "ピュ", "ピュ", "ピュ", "ピュ", "ピュ" },
-            new string[] { "ピョ", "ピョ", "ピョ", "ピョ", "ピョ", "ピョ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             // 外来音 (Gairaigo - Loan/foreign sounds)
             // ティ・トゥ行 (Ti/Tu-row)
             new string[] { "ティ", "ティ", "ティ", "ティ", "ティ", "ティ" },
-            new string[] { "トゥ", "トゥ", "トゥ", "トゥ", "トゥ", "トゥ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             // ディ・ドゥ行 (Di/Du-row)
             new string[] { "ディ", "ディ", "ディ", "ディ", "ディ", "ディ" },
             new string[] { "ドゥ", "ドゥ", "ドゥ", "ドゥ", "ドゥ", "ドゥ" },
             // ファ行 (Fa-row)
-            new string[] { "ファ", "ファ", "ファ", "ファ", "ファ", "ファ" },
-            new string[] { "フ", "フ", "フ", "フ", "フ", "フ" },
-            new string[] { "フュ", "フュ", "フュ", "フュ", "フュ", "フュ" },
-            new string[] { "フェ", "フェ", "フェ", "フェ", "フェ", "フェ" },
-            new string[] { "フォ", "フォ", "フォ", "フォ", "フォ", "フォ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             // ツァ行 (Tsa-row)
-            new string[] { "ツァ", "ツァ", "ツァ", "ツァ", "ツァ", "ツァ" },
-            new string[] { "ツィ", "ツィ", "ツィ", "ツィ", "ツィ", "ツィ" },
-            new string[] { "ツェ", "ツェ", "ツェ", "ツェ", "ツェ", "ツェ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             // ウィ行 (Wi-row)
             new string[] { "ウィ", "ウィ", "ウィ", "ウィ", "ウィ", "ウィ" },
-            new string[] { "ウェ", "ウェ", "ウェ", "ウェ", "ウェ", "ウェ" },
-            new string[] { "ウォ", "ウォ", "ウォ", "ウォ", "ウォ", "ウォ" },
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" }, // NO FILL
             // ヴァ行 (Va-row)
             new string[] { "ヴァ", "ヴァ", "ヴァ", "ヴァ", "ヴァ", "ヴァ" },
-            new string[] { "ヴィ", "ヴィ", "ヴィ", "ヴィ", "ヴィ", "ヴィ" },
-            new string[] { "ヴ", "ヴ", "ヴ", "ヴ", "ヴ", "ヴ" },
-            new string[] { "ヴェ", "ヴェ", "ヴェ", "ヴェ", "ヴェ", "ヴェ" },
-            new string[] { "ヴォ", "ヴォ", "ヴォ", "ヴォ", "ヴォ", "ヴォ" }
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" }, // NO FILL
+            new string[] { "", "", "", "", "", "" } // NO FILL
         };
 
         private readonly string[][] KanaWordsRomaji = new string[][] {
@@ -804,7 +804,7 @@
             // ワ行 (Wa-row) - Contribution by Object777
             new string[] { "wine", "world", "dress shirt", "vaccine", "1-Seg (digital broadcasting service for mobile devices)", "word" },
             new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
+            new string[] { "can", "remote control", "hamburger", "best ten", "control", "computer" },
             // 濁音 (Dakuon - Voiced sounds)
             // ガ行 (Ga-row) - Contribution by Object777
             new string[] { "guide", "gas", "gasoline", "glass; pane", "gardening", "garage" },
@@ -820,10 +820,10 @@
             new string[] { "zone", "Arizona", "Amazon", "exotic", "zombie", "ozone" },
             // ダ行 (Da-row) - Contribution by Object777
             new string[] { "dance", "diet", "tick; mite", "download", "double", "diving" },
+            new string[] { "", "", "", "", "", "" },
+            new string[] { "", "", "", "", "", "" },
             new string[] { "data", "department store", "design", "date", "dessert", "digital camera" },
             new string[] { "door", "drama", "(salad) dressing", "drug store", "dotcom", "hard" },
-            new string[] { "", "", "", "", "", "" },
-            new string[] { "", "", "", "", "", "" },
             // バ行 (Ba-row) - Contribution by Object777
             new string[] { "bus; bath", "bag", "bar", "banana", "motorcycle", "birthday" },
             new string[] { "plastic; vinyl", "business", "vitamin", "video", "building", "visa" },
