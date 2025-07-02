@@ -413,11 +413,11 @@
             new string[] { "nyō", "nyōkensa", "nyōbō", "nyōbōmochi", "nyokinyoki", "nyoronyoro" },
             // ひゃ行 (Hya-row) - Contribution by Soup
             new string[] { "hyaku", "hyakusai", "hyakunen", "nihyakuen", "hyakkaten", "hyakkajiten" },
-            new string[] { "hyūhyū" },
+            new string[] { "hyūhyū", "", "", "", "", "" },
             new string[] { "hyōka", "hyōban", "hyō", "yoteihyō", "hyōkin", "hyorohyoro" },
             // みゃ行 (Mya-row) - Contribution by Soup/Yuka ゆか
             new string[] { "mayku", "jinmyaku", "sanmyaku", "myakumyaku", "bunmyaku", "dōmyaku" },
-            new string[] { "myūjin", "myūgaku" },
+            new string[] { "myūjin", "myūgaku", "", "", "", "" },
             new string[] { "myōnichi", "myōchō", "myōgonichi", "myōji", "myō", "jumyō" },
             // りゃ行 (Rya-row) - Contribution by Soup/Yuka ゆか
             new string[] { "ryaku", "ryakugo", "ryakuji", "ryakureki", "shōryaku", "zenryaku" },
@@ -433,16 +433,16 @@
             new string[] { "jōzu", "josei", "jōdan", "joshu", "joyū", "jojo ni" },
             // ぢゃ行 (Dja-row) - Contribution by Soup/Yuka ゆか
             new string[] { "yunomi-jawan", "sumō-jaya", "jaguchi", "jama", "jari", "janpu" },
-            new string[] { "*" },
-            new string[] { "*" },
+            new string[] { "*", "", "", "", "", "" },
+            new string[] { "*", "", "", "", "", "" },
             // びゃ行 (Bya-row) - Contribution by Soup/Yuka ゆか
-            new string[] { "sanbyaku", "nan byaku en" },
-            new string[] { "byūbyū" },
-            new string[] { "byōki", "byōin" },
+            new string[] { "sanbyaku", "nan byaku en", "", "", "", "" },
+            new string[] { "byūbyū", "", "", "", "", "" },
+            new string[] { "byōki", "byōin", "", "", "", "" },
             // ぴゃ行 (Pya-row) - Contribution by Soup/Yuka ゆか
-            new string[] { "roppyaku", "happyaku", "uso-happyaku" },
-            new string[] { "pyūpyū" },
-            new string[] { "happyō", "denpyō" },
+            new string[] { "roppyaku", "happyaku", "uso-happyaku", "", "", "" },
+            new string[] { "pyūpyū", "", "", "", "", "" },
+            new string[] { "happyō", "denpyō", "", "", "", "" },
             
             // Katakana
             // ア行 (A-row) - Contribution by Object777
@@ -497,116 +497,116 @@
             new string[] { "rūru", "rupo", "rūtsu", "rūto", "sukūru", "bīru" },
             new string[] { "resutoran", "reshīto", "ressun", "reshipi", "retasu", "rēzā" },
             new string[] { "roguin", "rokkā", "robotto", "rōn", "rondon", "roshia" },
-            // ワ行 (Wa-row)
-            new string[] { "wa", "wa", "wa", "wa", "wa", "wa" },
+            // ワ行 (Wa-row) - Contribution by Object777
+            new string[] { "wain", "wārudo", "waishatsu", "wakuchin", "wansegu", "wādo" },
             new string[] { "wo", "wo", "wo", "wo", "wo", "wo" },
-            new string[] { "n", "n", "n", "n", "n", "n" },
+            new string[] { "kan", "rimokon", "hanbāgā", "besuto ten", "kontorōru", "konpyūtā" },
             // 濁音 (Dakuon - Voiced sounds)
-            // ガ行 (Ga-row)
-            new string[] { "ga", "ga", "ga", "ga", "ga", "ga" },
-            new string[] { "gi", "gi", "gi", "gi", "gi", "gi" },
-            new string[] { "gu", "gu", "gu", "gu", "gu", "gu" },
-            new string[] { "ge", "ge", "ge", "ge", "ge", "ge" },
-            new string[] { "go", "go", "go", "go", "go", "go" },
-            // ザ行 (Za-row)
-            new string[] { "za", "za", "za", "za", "za", "za" },
+            // ガ行 (Ga-row) - Contribution by Object777
+            new string[] { "gaido", "gasu", "gasorin", "garasu", "gādeningu", "garēji" },
+            new string[] { "gifuto", "gitā", "girisha", "gia", "ginesubukku", "ideorogī" },
+            new string[] { "gurume", "gurīn", "guzzu", "guamu", "gurando", "mazāgūsu" },
+            new string[] { "gēmu", "gesuto", "gēsen", "gēto", "gei", "korāgen" },
+            new string[] { "gōru", "gomu", "gojira", "gōruden wiku", "gōya", "shikago" },
+            // ザ行 (Za-row) - Contribution by Object777
+            new string[] { "piza", "rezā", "erizabesu", "gaza", "rēzā", "mazā" },
+            new string[] { "jīnzu", "jimu", "jin", "dejitaru", "myūjikku", "chinpanjī" },
+            new string[] { "zubon", "zūmu", "pazuru", "rōzu", "zukkīni", "shūzu" },
+            new string[] { "zero", "zemi", "zenekon", "roze", "zerachin", "zekken" },
+            new string[] { "zōn", "arizon", "amazon", "ekizochikku", "zonbi", "ozon" },
+            // ダ行 (Da-row) - Contribution by Object777
+            new string[] { "dansu", "daietto", "dani", "daunrōdo", "daburu", "daibingu" },
             new string[] { "ji", "ji", "ji", "ji", "ji", "ji" },
             new string[] { "zu", "zu", "zu", "zu", "zu", "zu" },
-            new string[] { "ze", "ze", "ze", "ze", "ze", "ze" },
-            new string[] { "zo", "zo", "zo", "zo", "zo", "zo" },
-            // ダ行 (Da-row)
-            new string[] { "da", "da", "da", "da", "da", "da" },
-            new string[] { "ji", "ji", "ji", "ji", "ji", "ji" },
-            new string[] { "zu", "zu", "zu", "zu", "zu", "zu" },
-            new string[] { "de", "de", "de", "de", "de", "de" },
-            new string[] { "do", "do", "do", "do", "do", "do" },
-            // バ行 (Ba-row)
-            new string[] { "ba", "ba", "ba", "ba", "ba", "ba" },
-            new string[] { "bi", "bi", "bi", "bi", "bi", "bi" },
-            new string[] { "bu", "bu", "bu", "bu", "bu", "bu" },
-            new string[] { "be", "be", "be", "be", "be", "be" },
-            new string[] { "bo", "bo", "bo", "bo", "bo", "bo" },
-            // パ行 (Pa-row)
-            new string[] { "pa", "pa", "pa", "pa", "pa", "pa" },
-            new string[] { "pi", "pi", "pi", "pi", "pi", "pi" },
-            new string[] { "pu", "pu", "pu", "pu", "pu", "pu" },
-            new string[] { "pe", "pe", "pe", "pe", "pe", "pe" },
-            new string[] { "po", "po", "po", "po", "po", "po" },
+            new string[] { "dēta", "depāto", "dezain", "dēto", "dezāto", "dejikame" },
+            new string[] { "doa", "dorama", "doresshingu", "doraggu sutoa", "dottokomu", "hādo" },
+            // バ行 (Ba-row) - Contribution by Object777
+            new string[] { "basu", "baggu", "bā", "banana", "baiku", "bāsudē" },
+            new string[] { "binīru", "bijinesu", "bitamin", "bideo", "biru", "biza" },
+            new string[] { "burando", "būmu", "burokkori", "burūberī", "burajā", "buranko" },
+            new string[] { "besuto", "beddo", "beruto", "beranda", "beteran", "bebīkā" },
+            new string[] { "bōru", "botoru", "bōtu", "bosu", "borantia", "botan" },
+            // パ行 (Pa-row) - Contribution by Object777
+            new string[] { "pan", "pasokon", "pasupōto", "pāto", "pawāpointo", "pari" },
+            new string[] { "pinto", "piano", "pinku", "piasu", "pīman", "pittyā" },
+            new string[] { "purezento", "puro", "puroguramu", "purintā", "purofīru", "puraibēto" },
+            new string[] { "petto", "pen", "pēji", "penki", "perū", "peppā" },
+            new string[] { "pointo", "posuto", "posutā", "pokketo", "potto", "poppu" },
             // 拗音 (Youon - Contracted sounds)
-            // キャ行 (Kya-row)
-            new string[] { "kya", "kya", "kya", "kya", "kya", "kya" },
-            new string[] { "kyu", "kyu", "kyu", "kyu", "kyu", "kyu" },
+            // キャ行 (Kya-row) - Contribution by Object777
+            new string[] { "kyaria", "kyabetsu", "kyarakutā", "kyasshingu", "kyaputen", "kyacchā" },
+            new string[] { "bābekyū", "sekyuritī", "kyūba", "kyūto", "sankyū", "resukyū" },
             new string[] { "kyo", "kyo", "kyo", "kyo", "kyo", "kyo" },
-            // シャ行 (Sha-row)
-            new string[] { "sha", "sha", "sha", "sha", "sha", "sha" },
-            new string[] { "shu", "shu", "shu", "shu", "shu", "shu" },
-            new string[] { "she", "she", "she", "she", "she", "she" },
-            new string[] { "sho", "sho", "sho", "sho", "sho", "sho" },
-            // チャ行 (Cha-row)
-            new string[] { "cha", "cha", "cha", "cha", "cha", "cha" },
-            new string[] { "chu", "chu", "chu", "chu", "chu", "chu" },
-            new string[] { "che", "che", "che", "che", "che", "che" },
-            new string[] { "cho", "cho", "cho", "cho", "cho", "cho" },
-            // ニャ行 (Nya-row)
-            new string[] { "nya", "nya", "nya", "nya", "nya", "nya" },
-            new string[] { "nyu", "nyu", "nyu", "nyu", "nyu", "nyu" },
-            new string[] { "nyo", "nyo", "nyo", "nyo", "nyo", "nyo" },
-            // ヒャ行 (Hya-row)
+            // シャ行 (Sha-row) - Contribution by Object777
+            new string[] { "shatsu", "shanpū", "shawā", "shanpan", "shai", "myūjishan" },
+            new string[] { "shugā", "shūkurīmu", "shūto", "pusshu", "shūmai", "masshurūmu" },
+            new string[] { "shefu", "shēku", "shea", "shēbā", "shēkusupia", "sherī" },
+            new string[] { "shoppu", "shō", "shoppingu", "shokku", "shorudābaggu", "kusshon" },
+            // チャ行 (Cha-row) - Contribution by Object777
+            new string[] { "channeru", "chansu", "chanpion", "chaperu", "chairudo", "chāmingu" },
+            new string[] { "chūrippu", "chūingamu", "chūnā", "chūbu", "shichū", "suchūdento" },
+            new string[] { "chekku-in", "chēn", "cherī", "chenji", "chesu", "chekku" },
+            new string[] { "chokorēto", "choisu", "chōku", "kuesuchon", "choppu", "ranchon-matto" },
+            // ニャ行 (Nya-row) - Contribution by Object777
+            new string[] { "konyakku", "nyanko", "konnyaku", "katarūnya", "borōnya", "bānya-kauda" },
+            new string[] { "nyūsu", "nyūyōku", "nyū", "nyūtaun", "nyūjīrando", "nyuansu" },
+            new string[] { "erunīnyo", "nyokki", "shanpinyon", "harapēnyo", "abinyon", "nyokumamu" },
+            // ヒャ行 (Hya-row) - Contribution by Object777
             new string[] { "hya", "hya", "hya", "hya", "hya", "hya" },
-            new string[] { "hyu", "hyu", "hyu", "hyu", "hyu", "hyu" },
+            new string[] { "hyūman", "hyūzu", "hyūmanizumu", "pehyūmu", "hyūsuton", "hyūron" },
             new string[] { "hyo", "hyo", "hyo", "hyo", "hyo", "hyo" },
-            // ミャ行 (Mya-row)
-            new string[] { "mya", "mya", "mya", "mya", "mya", "mya" },
-            new string[] { "myu", "myu", "myu", "myu", "myu", "myu" },
+            // ミャ行 (Mya-row) - Contribution by Object777
+            new string[] { "myanmā", "", "", "", "", "" },
+            new string[] { "myūjiamu", "myūjikaru", "myunhen", "bamyūda", "samyueru", "amyūzumento" },
             new string[] { "myo", "myo", "myo", "myo", "myo", "myo" },
-            // リャ行 (Rya-row)
-            new string[] { "rya", "rya", "rya", "rya", "rya", "rya" },
-            new string[] { "ryu", "ryu", "ryu", "ryu", "ryu", "ryu" },
-            new string[] { "ryo", "ryo", "ryo", "ryo", "ryo", "ryo" },
-            // ギャ行 (Gya-row)
-            new string[] { "gya", "gya", "gya", "gya", "gya", "gya" },
-            new string[] { "gyu", "gyu", "gyu", "gyu", "gyu", "gyu" },
-            new string[] { "gyo", "gyo", "gyo", "gyo", "gyo", "gyo" },
-            // ジャ行 (Ja-row)
-            new string[] { "ja", "ja", "ja", "ja", "ja", "ja" },
-            new string[] { "ju", "ju", "ju", "ju", "ju", "ju" },
-            new string[] { "je", "je", "je", "je", "je", "je" },
-            new string[] { "jo", "jo", "jo", "jo", "jo", "jo" },
-            // ビャ行 (Bya-row)
+            // リャ行 (Rya-row) - Contribution by Object777
+            new string[] { "kasutīrya", "kōryan", "paērya", "", "", "" },
+            new string[] { "ryukku", "ryūmachi", "reboryūshon", "boryūmu", "soryūshon", "sukuryū" },
+            new string[] { "matoryōshika", "", "", "", "", "" },
+            // ギャ行 (Gya-row) - Contribution by Object777
+            new string[] { "gyaru", "gyanburu", "gyagu", "gyangu", "gyararī", "gyara" },
+            new string[] { "regyurā", "figyua", "figyua-skēto", "iregyurā", "regyurēta", "" },
+            new string[] { "gyōza", "", "", "", "", "" },
+            // ジャ行 (Ja-row) - Contribution by Object777
+            new string[] { "jamu", "jaketto", "jazu", "janru", "jānaru", "janpu" },
+            new string[] { "junia", "jūsu", "juerī", "junēbu", "korāju", "rūju" },
+            new string[] { "jetto", "jerī", "jerashī", "jesuchā", "obuje", "jēmusu" },
+            new string[] { "jōku", "jogingu", "jokki", "", "", "" },
+            // ビャ行 (Bya-row) - Contribution by Object777
             new string[] { "bya", "bya", "bya", "bya", "bya", "bya" },
-            new string[] { "byu", "byu", "byu", "byu", "byu", "byu" },
+            new string[] { "byūtī", "intabyū", "byuffe", "byūrā", "rebyū", "debyū" },
             new string[] { "byo", "byo", "byo", "byo", "byo", "byo" },
-            // ピャ行 (Pya-row)
+            // ピャ行 (Pya-row) - Contribution by Object777
             new string[] { "pya", "pya", "pya", "pya", "pya", "pya" },
-            new string[] { "pyu", "pyu", "pyu", "pyu", "pyu", "pyu" },
-            new string[] { "pyo", "pyo", "pyo", "pyo", "pyo", "pyo" },
+            new string[] { "popyurā", "pyua", "pyūma", "pyurittsā", "pyūre", "" },
+            new string[] { "pyonyan", "pyōtoru", "", "", "", "" },
             // 外来音 (Gairaigo - Loan/foreign sounds)
-            // ティ・トゥ行 (Ti/Tu-row)
-            new string[] { "ti", "ti", "ti", "ti", "ti", "ti" },
-            new string[] { "tu", "tu", "tu", "tu", "tu", "tu" },
-            // ディ・ドゥ行 (Di/Du-row)
-            new string[] { "di", "di", "di", "di", "di", "di" },
-            new string[] { "du", "du", "du", "du", "du", "du" },
-            // ファ行 (Fa-row)
-            new string[] { "fa", "fa", "fa", "fa", "fa", "fa" },
-            new string[] { "fu", "fu", "fu", "fu", "fu", "fu" },
-            new string[] { "fyu", "fyu", "fyu", "fyu", "fyu", "fyu" },
-            new string[] { "fe", "fe", "fe", "fe", "fe", "fe" },
+            // ティ・トゥ行 (Ti/Tu-row) - Contribution by Object777
+            new string[] { "tī", "pātī", "tisshu", "taidentitī", "patishie", "baraetī" },
+            new string[] { "tūba", "insutitūto", "tuishon", "", "", "" },
+            // ディ・ドゥ行 (Di/Du-row) - Contribution by Object777
+            new string[] { "dinā", "dīpu", "merodī", "parodī", "direkutā", "disuku" },
+            new string[] { "duaru", "edukēshon", "fondu", "duetto", "purodūsā", "duo" },
+            // ファ行 (Fa-row) - Contribution by Object777
+            new string[] { "famirī", "fasshon", "fakkusu", "faito", "", "" },
+            new string[] { "fisshu", "firumu", "fīto", "fikushon", "", "" },
+            new string[] { "manifesuto", "feminin", "fensu", "fea purē", "", "" },
+            new string[] { "fōku", "fōmu", "fōramu", "foagura", "", "" },
             new string[] { "fo", "fo", "fo", "fo", "fo", "fo" },
-            // ツァ行 (Tsa-row)
-            new string[] { "tsa", "tsa", "tsa", "tsa", "tsa", "tsa" },
-            new string[] { "tsi", "tsi", "tsi", "tsi", "tsi", "tsi" },
-            new string[] { "tse", "tse", "tse", "tse", "tse", "tse" },
-            // ウィ行 (Wi-row)
-            new string[] { "wi", "wi", "wi", "wi", "wi", "wi" },
-            new string[] { "we", "we", "we", "we", "we", "we" },
-            new string[] { "wo", "wo", "wo", "wo", "wo", "wo" },
-            // ヴァ行 (Va-row)
-            new string[] { "va", "va", "va", "va", "va", "va" },
-            new string[] { "vi", "vi", "vi", "vi", "vi", "vi" },
-            new string[] { "vu", "vu", "vu", "vu", "vu", "vu" },
-            new string[] { "ve", "ve", "ve", "ve", "ve", "ve" },
-            new string[] { "vo", "vo", "vo", "vo", "vo", "vo" }
+            // ツァ行 (Tsa-row) - Contribution by Object777
+            new string[] { "", "", "", "", "", "" },
+            new string[] { "", "", "", "", "", "" },
+            new string[] { "", "", "", "", "", "" },
+            // ウィ行 (Wi-row) - Contribution by Object777
+            new string[] { "wīku", "windō", "wiggu", "winnā", "sandowicchi", "harowīn" },
+            new string[] { "werukamu", "kuwēto", "wedingu", "wenzudē", "", "" },
+            new string[] { "wōkingu", "wōrusutorīto", "wōmuappu", "wōtā", "", "" },
+            // ヴァ行 (Va-row) - Contribution by Object777
+            new string[] { "vaiorin", "variēshon", "vājin", "vaioretto", "vivarudi", "vakēsyon" },
+            new string[] { "", "", "", "", "", "" },
+            new string[] { "", "", "", "", "", "" },
+            new string[] { "", "", "", "", "", "" },
+            new string[] { "", "", "", "", "", "" },
         };
 
         private readonly string[][] KanaWordsMeaning = new string[][] {
