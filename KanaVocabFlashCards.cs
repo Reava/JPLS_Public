@@ -109,7 +109,7 @@
             new string[] { "にょう", "にょうけんさ", "にょうぼう", "にょうぼうもち", "にょきにょき", "にょろにょろ" },
             // ひゃ行 (Hya-row) - Contribution by Soup/Yuka ゆか
             new string[] { "ひゃく", "ひゃくさい", "ひゃくねん", "にひゃくえん", "ひゃっかてん", "ひゃっかじてん" },
-            new string[] { "ひゅうひゅう" },
+            new string[] { "ひゅうひゅう", "", "", "", "", "" },
             new string[] { "ひょうか", "ひょうばん", "ひょう", "よていひょう", "ひょうきん", "ひょろひょろ" },
             // みゃ行 (Mya-row) - Contribution by Soup/Yuka ゆか
             new string[] { "まいく", "じんみゃく", "さんみゃく", "みゃくみゃく", "ぶんみゃく", "どうみゃく" },
@@ -129,16 +129,16 @@
             new string[] { "じょうず", "じょせい", "じょうだん", "じょしゅ", "じょゆう", "じょじょに" },
             // ぢゃ行 (Dja-row) - Contribution by Soup/Yuka ゆか
             new string[] { "ゆのみぢゃわん", "すもうぢゃや", "ぢゃぐち", "ぢゃま", "ぢゃり", "ぢゃんぷ" },
-            new string[] { "*" },
-            new string[] { "*" },
+            new string[] { "*", "", "", "", "", "" },
+            new string[] { "*", "", "", "", "", "" },
             // びゃ行 (Bya-row) - Contribution by Soup/Yuka ゆか
-            new string[] { "さんびゃく", "なんびゃくえん" },
-            new string[] { "びゅうびゅう" },
-            new string[] { "びょうき", "びょういん" },
+            new string[] { "さんびゃく", "なんびゃくえん", "", "", "", "" },
+            new string[] { "びゅうびゅう", "", "", "", "", "" },
+            new string[] { "びょうき", "びょういん", "", "", "", "" },
             // ぴゃ行 (Pya-row) - Contribution by Soup/Yuka ゆか
-            new string[] { "ろっぴゃく", "はっぴゃく", "うそはっぴゃく" },
-            new string[] { "ぴゅうぴゅう" },
-            new string[] { "はっぴょう", "でんぴょう" },
+            new string[] { "ろっぴゃく", "はっぴゃく", "うそはっぴゃく", "", "", "" },
+            new string[] { "ぴゅうぴゅう", "", "", "", "", "" },
+            new string[] { "はっぴょう", "でんぴょう", "", "", "", "" },
             
             // Katakana
             // ア行 (A-row) - Contribution by Object777
@@ -147,15 +147,15 @@
             new string[] { "ウール", "ウイルス", "ウーマン", "ウエスト", "ウイスキー", "ウインク" },
             new string[] { "エアコン", "エネルギー", "エコ", "エリート", "エラー", "エクセル" },
             new string[] { "オープン", "オレンジ", "オイル", "オンライン", "オーブン", "オーストラリア" },
-            // カ行 (Ka-row)
-            new string[] { "カ", "カ", "カ", "カ", "カ", "カ" },
-            new string[] { "キ", "キ", "キ", "キ", "キ", "キ" },
-            new string[] { "ク", "ク", "ク", "ク", "ク", "ク" },
-            new string[] { "ケ", "ケ", "ケ", "ケ", "ケ", "ケ" },
-            new string[] { "コ", "コ", "コ", "コ", "コ", "コ" },
+            // カ行 (Ka-row) - Contribution by Reava_（レイ）
+            new string[] { "カー", "カラー", "カロリー", "カフェ", "カレー", "カーナビ" },
+            new string[] { "キッチン", "キーボード", "キス", "キッズ", "キリスト", "キーワード" },
+            new string[] { "クラブ", "クーラー", "クッキー", "クール", "クレーム", "クリスマス" },
+            new string[] { "ケータイ", "ケーキ", "ケース", "ケチャップ", "マーケット", "スケート" },
+            new string[] { "コーヒー", "コスト", "コミック", "コンビニ", "コップ", "コミュニチー" },
             // サ行 (Sa-row)
-            new string[] { "サ", "サ", "サ", "サ", "サ", "サ" },
-            new string[] { "シ", "シ", "シ", "シ", "シ", "シ" },
+            new string[] { "サービス", "サラダ", "サイト", "サンドイッチ", "サッカー", "サングラス" },
+            new string[] { "システム", "シンプル", "シート", "シリーズ", "シ", "シ" },
             new string[] { "ス", "ス", "ス", "ス", "ス", "ス" },
             new string[] { "セ", "セ", "セ", "セ", "セ", "セ" },
             new string[] { "ソ", "ソ", "ソ", "ソ", "ソ", "ソ" },
@@ -433,8 +433,8 @@
             new string[] { "jōzu", "josei", "jōdan", "joshu", "joyū", "jojo ni" },
             // ぢゃ行 (Dja-row) - Contribution by Soup/Yuka ゆか
             new string[] { "yunomi-jawan", "sumō-jaya", "jaguchi", "jama", "jari", "janpu" },
-            new string[] { "*", "", "", "", "", "" },
-            new string[] { "*", "", "", "", "", "" },
+            new string[] { "", "", "", "", "", "" },
+            new string[] { "", "", "", "", "", "" },
             // びゃ行 (Bya-row) - Contribution by Soup/Yuka ゆか
             new string[] { "sanbyaku", "nan byaku en", "", "", "", "" },
             new string[] { "byūbyū", "", "", "", "", "" },
@@ -499,7 +499,7 @@
             new string[] { "roguin", "rokkā", "robotto", "rōn", "rondon", "roshia" },
             // ワ行 (Wa-row) - Contribution by Object777
             new string[] { "wain", "wārudo", "waishatsu", "wakuchin", "wansegu", "wādo" },
-            new string[] { "wo", "wo", "wo", "wo", "wo", "wo" },
+            new string[] { "", "", "", "", "", "" },
             new string[] { "kan", "rimokon", "hanbāgā", "besuto ten", "kontorōru", "konpyūtā" },
             // 濁音 (Dakuon - Voiced sounds)
             // ガ行 (Ga-row) - Contribution by Object777
@@ -516,8 +516,8 @@
             new string[] { "zōn", "arizon", "amazon", "ekizochikku", "zonbi", "ozon" },
             // ダ行 (Da-row) - Contribution by Object777
             new string[] { "dansu", "daietto", "dani", "daunrōdo", "daburu", "daibingu" },
-            new string[] { "ji", "ji", "ji", "ji", "ji", "ji" },
-            new string[] { "zu", "zu", "zu", "zu", "zu", "zu" },
+            new string[] { "", "", "", "", "", "" },
+            new string[] { "", "", "", "", "", "" },
             new string[] { "dēta", "depāto", "dezain", "dēto", "dezāto", "dejikame" },
             new string[] { "doa", "dorama", "doresshingu", "doraggu sutoa", "dottokomu", "hādo" },
             // バ行 (Ba-row) - Contribution by Object777
@@ -536,7 +536,7 @@
             // キャ行 (Kya-row) - Contribution by Object777
             new string[] { "kyaria", "kyabetsu", "kyarakutā", "kyasshingu", "kyaputen", "kyacchā" },
             new string[] { "bābekyū", "sekyuritī", "kyūba", "kyūto", "sankyū", "resukyū" },
-            new string[] { "kyo", "kyo", "kyo", "kyo", "kyo", "kyo" },
+            new string[] { "", "", "", "", "", "" },
             // シャ行 (Sha-row) - Contribution by Object777
             new string[] { "shatsu", "shanpū", "shawā", "shanpan", "shai", "myūjishan" },
             new string[] { "shugā", "shūkurīmu", "shūto", "pusshu", "shūmai", "masshurūmu" },
@@ -552,13 +552,13 @@
             new string[] { "nyūsu", "nyūyōku", "nyū", "nyūtaun", "nyūjīrando", "nyuansu" },
             new string[] { "erunīnyo", "nyokki", "shanpinyon", "harapēnyo", "abinyon", "nyokumamu" },
             // ヒャ行 (Hya-row) - Contribution by Object777
-            new string[] { "hya", "hya", "hya", "hya", "hya", "hya" },
+            new string[] { "", "", "", "", "", "" },
             new string[] { "hyūman", "hyūzu", "hyūmanizumu", "pehyūmu", "hyūsuton", "hyūron" },
-            new string[] { "hyo", "hyo", "hyo", "hyo", "hyo", "hyo" },
+            new string[] { "", "", "", "", "", "" },
             // ミャ行 (Mya-row) - Contribution by Object777
             new string[] { "myanmā", "", "", "", "", "" },
             new string[] { "myūjiamu", "myūjikaru", "myunhen", "bamyūda", "samyueru", "amyūzumento" },
-            new string[] { "myo", "myo", "myo", "myo", "myo", "myo" },
+            new string[] { "", "", "", "", "", "" },
             // リャ行 (Rya-row) - Contribution by Object777
             new string[] { "kasutīrya", "kōryan", "paērya", "", "", "" },
             new string[] { "ryukku", "ryūmachi", "reboryūshon", "boryūmu", "soryūshon", "sukuryū" },
@@ -573,11 +573,11 @@
             new string[] { "jetto", "jerī", "jerashī", "jesuchā", "obuje", "jēmusu" },
             new string[] { "jōku", "jogingu", "jokki", "", "", "" },
             // ビャ行 (Bya-row) - Contribution by Object777
-            new string[] { "bya", "bya", "bya", "bya", "bya", "bya" },
+            new string[] { "", "", "", "", "", "" },
             new string[] { "byūtī", "intabyū", "byuffe", "byūrā", "rebyū", "debyū" },
-            new string[] { "byo", "byo", "byo", "byo", "byo", "byo" },
+            new string[] { "", "", "", "", "", "" },
             // ピャ行 (Pya-row) - Contribution by Object777
-            new string[] { "pya", "pya", "pya", "pya", "pya", "pya" },
+            new string[] { "", "", "", "", "", "" },
             new string[] { "popyurā", "pyua", "pyūma", "pyurittsā", "pyūre", "" },
             new string[] { "pyonyan", "pyōtoru", "", "", "", "" },
             // 外来音 (Gairaigo - Loan/foreign sounds)
@@ -592,7 +592,7 @@
             new string[] { "fisshu", "firumu", "fīto", "fikushon", "", "" },
             new string[] { "manifesuto", "feminin", "fensu", "fea purē", "", "" },
             new string[] { "fōku", "fōmu", "fōramu", "foagura", "", "" },
-            new string[] { "fo", "fo", "fo", "fo", "fo", "fo" },
+            new string[] { "", "", "", "", "", "" },
             // ツァ行 (Tsa-row) - Contribution by Object777
             new string[] { "", "", "", "", "", "" },
             new string[] { "", "", "", "", "", "" },
@@ -717,11 +717,11 @@
             new string[] { "urine", "urinary test, urine examination", "wife; my wife", "married man", "[tree, plant] shooting up one after another", "wriggling; slithering" },
             // ひゃ行 (Hya-row) - Contribution by Soup
             new string[] { "hundred", "hundred years old", "hundred years", "two hundred yen", "department store", "encyclopedia" },
-            new string[] { "whistling sound; sound of wind" },
+            new string[] { "whistling sound; sound of wind", "", "", "", "", "" },
             new string[] { "evaluation; assess", "reputation; fame; popularity", "chart", "schedule, itinerary", "facetious, funny", "frail; lanky" },
             // みゃ行 (Mya-row) - Contribution by Soup/Yuka ゆか & Reava_
             new string[] { "pulse", "personal connection", "mountain range", "continuous, unbroken", "context", "[medical term] artery" },
-            new string[] { "civilian (non-military person)", "music theory" },
+            new string[] { "civilian (non-military person)", "music theory", "", "", "", "" },
             new string[] { "tomorrow", "tomorrow morning", "day after tomorrow", "surname", "strange", "life span" },
             // りゃ行 (Rya-row) - Contribution by Soup/Yuka ゆか
             new string[] { "abbreviation", "acronym; abbreviation", "simplified character", "brief personal record", "omission; abbreviation", "salutation of brief letter (lit. 'first part omitted')" },
@@ -737,16 +737,16 @@
             new string[] { "skillful; skilled", "woman; female", "joke", "assistant", "actress", "gradually, little by little" },
             // ぢゃ行 (Dja-row) - Contribution by Soup/Yuka ゆか
             new string[] { "(japanese) tea cup", "ticket agent for sumō", "faucet, tap", "hindrance, nuisance", "gravel", "jump" },
-            new string[] { "*" },
-            new string[] { "*" },
+            new string[] { "", "", "", "", "", "" },
+            new string[] { "", "", "", "", "", "" },
             // びゃ行 (Bya-row) - Contribution by Soup/Yuka ゆか
-            new string[] { "three hundred", "how many hundred yen" },
-            new string[] { "Howl (sound of wind)" },
-            new string[] { "sick; sickness", "hospital" },
+            new string[] { "three hundred", "how many hundred yen", "", "", "", "" },
+            new string[] { "Howl (sound of wind)", "", "", "", "", "" },
+            new string[] { "sick; sickness", "hospital", "", "", "", "" },
             // ぴゃ行 (Pya-row) - Contribution by Soup/Yuka ゆか
-            new string[] { "six hundred", "eight hundred", "all sorts of lies; tissue of lies" },
-            new string[] { "sound of whistling" },
-            new string[] { "announcement, presentation", "sales slip, voucher" },
+            new string[] { "six hundred", "eight hundred", "all sorts of lies; tissue of lies", "", "", "" },
+            new string[] { "sound of whistling", "", "", "", "", "" },
+            new string[] { "announcement, presentation", "sales slip, voucher", "", "", "", "" },
     
             // Katakana
             // ア行 (A-row) - Contribution by Object777
